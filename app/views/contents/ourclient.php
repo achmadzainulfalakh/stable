@@ -1,0 +1,82 @@
+
+<!--=====================
+          Content
+======================-->
+<section id="content" class="line-bottom">
+  <div class="container landing-container" id="Our-Client" style="padding-top:80px">
+    <div class="row" >
+      <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+        <h3>Our Client</h3>
+      </div>
+    </div>
+	<br/>
+	<div class="row" >
+		<div class="col-xs-12 col-sm-3 col-md-3 col-lg-3" style="padding-bottom: 20px;">
+			<center>
+			<img src="<?php echo base_url() ?>assets/images/ourclient_03.png" alt="ourclient" class="img-responsive">
+			</center>
+		</div>
+		<div class="col-xs-12 col-sm-3 col-md-3 col-lg-3" style="padding-bottom: 20px;">
+			<center>
+			<img src="<?php echo base_url() ?>assets/images/ourclient_04.png" alt="ourclient" class="img-responsive">
+			</center>
+		</div>
+		<div class="col-xs-12 col-sm-3 col-md-3 col-lg-3" style="padding-bottom: 20px;">
+			<center>
+			<img src="<?php echo base_url() ?>assets/images/ourclient_05.png" alt="ourclient" class="img-responsive">
+			</center>
+		</div>
+		<div class="col-xs-12 col-sm-3 col-md-3 col-lg-3" style="padding-bottom: 20px;">
+			<center>
+			<img src="<?php echo base_url() ?>assets/images/ourclient_06.png" alt="ourclient" class="img-responsive">
+			</center>
+		</div>
+	</div>
+	
+	<div class="row" >
+		<div class="col-xs-12 col-sm-3 col-md-3 col-lg-3" style="padding-bottom: 20px;">
+			<center>
+			<img src="<?php echo base_url() ?>assets/images/ourclient_09.png" alt="ourclient" class="img-responsive">
+			</center>
+		</div>
+		<div class="col-xs-12 col-sm-3 col-md-3 col-lg-3" style="padding-bottom: 20px;">
+			<center>
+			<img src="<?php echo base_url() ?>assets/images/ourclient_12.png" alt="ourclient" class="img-responsive">
+			</center>
+		</div>
+		<div class="col-xs-12 col-sm-3 col-md-3 col-lg-3" style="padding-bottom: 20px;">
+			<center>
+			<img src="<?php echo base_url() ?>assets/images/ourclient_15.png" alt="ourclient" class="img-responsive">
+			</center>
+		</div>
+		<div class="col-xs-12 col-sm-3 col-md-3 col-lg-3" style="padding-bottom: 20px;">
+			<center>
+			<img src="<?php echo base_url() ?>assets/images/ourclient_16.png" alt="ourclient" class="img-responsive">
+			</center>
+		</div>
+	</div>
+	<div class="row" >
+		<div class="col-xs-12 col-sm-3 col-md-3 col-lg-3" style="padding-bottom: 20px;">
+			<center>
+			<img src="<?php echo base_url() ?>assets/images/ourclient_20.png" alt="ourclient" class="img-responsive">
+			</center>
+		</div>
+		<div class="col-xs-12 col-sm-3 col-md-3 col-lg-3" style="padding-bottom: 20px;">
+			<center>
+			<img src="<?php echo base_url() ?>assets/images/ourclient_23.png" alt="ourclient" class="img-responsive">
+			</center>
+		</div>
+		<div class="col-xs-12 col-sm-3 col-md-3 col-lg-3" style="padding-bottom: 20px;">
+			<center>
+			<img src="<?php echo base_url() ?>assets/images/ourclient_24.png" alt="ourclient" class="img-responsive">
+			</center>
+		</div>
+		<div class="col-xs-12 col-sm-3 col-md-3 col-lg-3" style="padding-bottom: 20px;">
+			<center>
+			<img src="<?php echo base_url() ?>assets/images/ourclient_26.png" alt="ourclient" class="img-responsive ">
+			</center>
+		</div>
+	</div>
+  </div>
+  <br/>
+</section>
