@@ -30,8 +30,7 @@ class Site extends CI_Controller {
 	{
 
 		$data=array(
-			'cdn_url'=>'http://cdn.stable.me/',
-			'imgheader'=>base_url().'assets/upload/home-bg.jpg',
+                        'imgheader'=>base_url().'assets/upload/home-bg.jpg',
 			'title'=>'HOME',
 			'subtitle'=>'',
 			'chaptca'=>$this->get_chaptca(4).' '.$this->get_chaptca(3).' '.$this->get_chaptca(2),
