@@ -23,7 +23,10 @@ class Site extends CI_Controller {
 	public function __construct()
 	{
 		parent::__construct();
-
+		$this->load->model(array('settings_model','posts_model'));
+		$this->load->library(array('encrypt'));
+		$this->load->helper(array('MY_url_encryption_helper'));
+		$this->load->dbutil();
 	}
 	//halaman home
 	public function index()
@@ -386,6 +389,53 @@ class Site extends CI_Controller {
 		$this->load->view('contents/policy');
 		$this->load->view('page/footer');	
 	}
+	public function page_preview($id)
+	{
+		
+		
+		$data=array(
+            'imgheader'=>base_url().'assets/upload/home-bg.jpg',
+			'title'=>'HOME',
+			'subtitle'=>'',
+			'chaptca'=>$this->get_chaptca(4).' '.$this->get_chaptca(3).' '.$this->get_chaptca(2),
+			'menu'=>array(
+				array(
+					'activemenu'=>'active',
+					'text'=>'Home',
+					'link'=>base_url().'index.php/site/',
+				),
+				array(
+					'activemenu'=>'',
+					'text'=>'About',
+					'link'=>base_url().'index.php/site/about',
+				),
+				array(
+					'activemenu'=>'',
+					'text'=>'posts',
+					'link'=>base_url().'index.php/site/posts',
+				),
+				array(
+					'activemenu'=>'',
+					'text'=>'Contact',
+					'link'=>base_url().'index.php/site/contact',
+				),
+			),
+			'copyr'=>'Copyright &copy; Your Website 2016',
+			'ID'=>$id,
+		);
+		$this->load->view('page/head',$data);
+		// $this->load->view('page/header');
+		// $this->load->view('page/stuckmenu');
+		$this->load->view('contents/dinamis_page');
+		$this->load->view('page/footer');	
+		
+		// $this->load->view('backendcontents/head', $data);
+		// $this->load->view('backendcontents/header');
+		// $this->load->view('contents/dinamis_page');
+		//$this->load->view('backendcontents/footer');
+		// $this->load->view('backendcontents/foot');
+	}
+	
 	
 
 }

@@ -37,13 +37,13 @@
 			<div class="col-xs-12 col-sm-4 col-md-4 col-lg-4">
 				<h3>Call number:</h3>
 				<div class="text3">
-				  +62822 3490 8886 <br>+62 857 5555 5254
+				  <?php echo $this->settings_model->get_options('admin_telp') //mendapatkan email admin ?>
 				</div>
 			</div>
 			<div class="col-xs-12 col-sm-4 col-md-4 col-lg-4">
 				<h3>E-mail:</h3>
 				<div class="text3">
-				  <a href="mail.google.com">saranalintasdata@gmail.com</a>
+				  <a href="mail.google.com"><?php echo $this->settings_model->get_options('admin_email') //mendapatkan nama admin ?></a>
 				</div>
 			</div>
 		</div>

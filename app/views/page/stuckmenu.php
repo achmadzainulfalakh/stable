@@ -64,31 +64,31 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 		<div class="row">
 			<div class="col-xs-12 col-sm-6 col-md-6 col-lg-4">
 				<div class="row">
-				<a href="#" class="col-xs-6 col-sm-6 col-md-6 col-lg-6 grow bga mygrid scroll" style="text-decoration:none"><div class="maxheight1">
-				<div class="fa fa-globe"></div>Global Research</div>
+				<a href="<?php echo $this->settings_model->get_options('gridmenulink1') //mendapatkan link grid 1 ?>" class="col-xs-6 col-sm-6 col-md-6 col-lg-6 grow bga mygrid scroll" style="text-decoration:none"><div class="maxheight1">
+				<div class="<?php echo $this->settings_model->get_options('gridmenuicon1') //mendapatkan icon grid 1 ?>"></div><?php echo $this->settings_model->get_options('gridmenu1') //mendapatkan grid menu ?></div>
 				</a>
-				<a href="#" class="col-xs-6 col-sm-6 col-md-6 col-lg-6 grow bgb mygrid scroll" style="text-decoration:none"><div class="maxheight1">
-				<div class="fa fa-lightbulb-o"></div>Creative Ideas</div>
+				<a href="<?php echo $this->settings_model->get_options('gridmenulink2') //mendapatkan link grid 2 ?>" class="col-xs-6 col-sm-6 col-md-6 col-lg-6 grow bgb mygrid scroll" style="text-decoration:none"><div class="maxheight1">
+				<div class="<?php echo $this->settings_model->get_options('gridmenuicon2') //mendapatkan icon grid 2 ?>"></div><?php echo $this->settings_model->get_options('gridmenu2') //mendapatkan grid menu ?></div>
 				</a>
 				</div>
 				<div class="row">
-				<a href="#" class="col-xs-6 col-sm-6 col-md-6 col-lg-6 grow bgb mygrid scroll" style="text-decoration:none"><div class="maxheight1">
-				<div class="fa fa-cog"></div>New Services</div>
+				<a href="<?php echo $this->settings_model->get_options('gridmenulink3') //mendapatkan link grid 3 ?>" class="col-xs-6 col-sm-6 col-md-6 col-lg-6 grow bgb mygrid scroll" style="text-decoration:none"><div class="maxheight1">
+				<div class="<?php echo $this->settings_model->get_options('gridmenuicon3') //mendapatkan icon grid 3 ?>"></div><?php echo $this->settings_model->get_options('gridmenu3') //mendapatkan grid menu ?></div>
 				</a>
-				<a href="#" class="col-xs-6 col-sm-6 col-md-6 col-lg-6 grow bga mygrid scroll" style="text-decoration:none"><div class="maxheight1">
-				<div class="fa fa-briefcase"></div>Pro Management</div>
+				<a href="<?php echo $this->settings_model->get_options('gridmenulink4') //mendapatkan link grid 4 ?>" class="col-xs-6 col-sm-6 col-md-6 col-lg-6 grow bga mygrid scroll" style="text-decoration:none"><div class="maxheight1">
+				<div class="<?php echo $this->settings_model->get_options('gridmenuicon4') //mendapatkan icon grid 4 ?>"></div><?php echo $this->settings_model->get_options('gridmenu4') //mendapatkan grid menu ?></div>
 				</a>
 				</div>
 			</div>
 			<div class="col-xs-12 col-sm-6 col-md-6 col-lg-8">
 				<div class="row">
 				<div class="col-xs-12 col-sm-2 col-md-2 col-lg-2">
-				  <h2 class="hidden-xs">Strong Stable Safe</h2>
+				  <h2 class="hidden-xs"><?php echo $this->settings_model->get_options('selogan') //mendapatkan selogan situs ?></h2>
 				</div>
 				</div>
 				<div class="row">
 				<div class="col-xs-12 col-sm-10 col-md-10 col-lg-8">
-				  We help you run your business  in a successful way
+				  <?php echo $this->settings_model->get_options('semboyan') //mendapatkan semboyan situs ?>
 				</div>
 				</div>
 			</div>

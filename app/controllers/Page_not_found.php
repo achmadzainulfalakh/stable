@@ -23,6 +23,8 @@ class Page_not_found extends CI_Controller {
 	public function __construct()
 	{
 		parent::__construct();
+		$this->load->model(array('settings_model'));
+		$this->load->dbutil();
 		//$this->load->model('usersmodel');
 		//$this->load->helper('url_helper');		
 	}

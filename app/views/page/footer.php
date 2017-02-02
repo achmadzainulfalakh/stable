@@ -22,7 +22,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 					padding: 25px 0;
 					border-top: 1px solid #5c5c5c;}
 					</style>
-					<p class="copyright text-muted"><span class="copyright">Sarana Lintas Data</span> <span class="copyright-year">&copy; 2016</span> | <a id="BtnModalPolicy" href="#">Privacy Policy</a></p>
+					<p class="copyright text-muted"><span class="copyright"><?php echo $this->settings_model->get_options('textfooter') //mendapatkan text footer ?></span> <span class="copyright-year">&copy; <?php echo date('Y')?></span> | <a id="BtnModalPolicy" href="#">Privacy Policy</a></p>
                 </div>
             </div>
         </div>

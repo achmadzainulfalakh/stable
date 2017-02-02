@@ -12,7 +12,7 @@
 				<div class="fa fa-bars"></div>DEDICATED AND CO-LOCATION SERVER</div>
 			  </a>
 			  <a href="#MATV" class="col-xs-12 col-sm-4 col-md-4 col-lg-4 grow bgc mygrid" style="text-decoration:none"><div class="maxheight">
-				<div class="fa fa-tv"></div>MATV (MASTER ANTENA TV)</div>
+				<div class="fa fa-desktop"></div>MATV (MASTER ANTENA TV)</div>
 			  </a>
 			</div>
 			<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 ">
@@ -20,7 +20,7 @@
 				<div class="fa fa-video-camera"></div>CCTV, IP CAMERA AND SYSTEM SUPERVEILLANCE</div>
 			  </a>
 			  <a href="#VIDEO_CONFERENCE" class="col-xs-12 col-sm-4 col-md-4 col-lg-4 grow bge mygrid" style="text-decoration:none"><div class="maxheight">
-				<div class="fa fa-commenting-o"></div>IP PBX, VOIP AND VIDEO CONFERENCE</div>
+				<div class="fa fa-comment-o"></div>IP PBX, VOIP AND VIDEO CONFERENCE</div>
 			  </a>
 			  <a href="#SOUNDS_SYSTEM" class="col-xs-12 col-sm-4 col-md-4 col-lg-4 grow bgf mygrid" style="text-decoration:none"><div class="maxheight">
 				<div class="fa fa-volume-down"></div>SOUNDS SYSTEM AND MULTIMEDIA ADVERTISING</div>

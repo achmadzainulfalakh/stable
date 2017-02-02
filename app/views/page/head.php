@@ -11,6 +11,8 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 <link rel="icon" href="<?php echo base_url() ?>assets/images/favicon.png">
 <link rel="shortcut icon" href="<?php echo base_url() ?>assets/images/favicon.ico" />
 <link rel="stylesheet" href="<?php echo base_url() ?>assets/css/style.css">
+<meta name="description" content="<?php echo $this->settings_model->get_description() ?>">
+<meta name="author" content="<?php echo $this->settings_model->get_author() ?>">
 
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css">
@@ -19,10 +21,12 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 
 <link rel="stylesheet" href="<?php echo base_url() ?>assets/css/contact-form.css">
 
-
-
-
-
+	<!-- jQuery -->
+    <script type="text/javascript" src="<?php echo base_url()."assets/admin" ?>/bower_components/jquery/dist/jquery.min.js"></script>
+	
+	<!-- CK editor js -->
+	<!--<script type="text/javascript" src="<?php //echo base_url()."assets/ckeditor-full" ?>/ckeditor.js"></script>-->
+	<script src="http://cdn.ckeditor.com/4.6.2/standard-all/ckeditor.js"></script>
 
 
 <?php /*<!--[if lt IE 8]>
