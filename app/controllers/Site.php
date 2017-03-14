@@ -3,35 +3,23 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 
 class Site extends CI_Controller {
 
-	/**
-	 * Index Page for this controller.
-	 *
-	 * Maps to the following URL
-	 * 		http://example.com/index.php/welcome
-	 *	- or -
-	 * 		http://example.com/index.php/welcome/index
-	 *	- or -
-	 * Since this controller is set as the default controller in
-	 * config/routes.php, it's displayed at http://example.com/
-	 *
-	 * So any other public methods not prefixed with an underscore will
-	 * map to /index.php/welcome/<method_name>
-	 * @see https://codeigniter.com/user_guide/general/urls.html
-	 */
-	//halaman home atau halaman depan
-	
 	public function __construct()
 	{
 		parent::__construct();
 		$this->load->model(array('settings_model','posts_model'));
-		$this->load->library(array('encrypt'));
-		$this->load->helper(array('MY_url_encryption_helper'));
 		$this->load->dbutil();
+		
+		add_shortcode( 'footag', 'footag_func' );
 	}
 	//halaman home
 	public function index()
 	{
-
+		//mempercepat halaman dengan cace
+		//$this->output->cache(300);
+		// Deletes cache for the currently requested URI
+		$this->output->delete_cache();
+		// Deletes cache for /foo/bar
+		//$this->output->delete_cache('/foo/bar');
 		$data=array(
                         'imgheader'=>base_url().'assets/upload/home-bg.jpg',
 			'title'=>'HOME',
@@ -61,20 +49,21 @@ class Site extends CI_Controller {
 			),
 			'copyr'=>'Copyright &copy; Your Website 2016',
 		);
-		$this->load->view('page/head',$data);
-		$this->load->view('page/header');
-		$this->load->view('page/stuckmenu');
-		$this->load->view('contents/counter');
-		///$this->load->view('contents/slidecoursel');
-		$this->load->view('contents/aboutus');
-		$this->load->view('contents/product');
-		$this->load->view('contents/weoffer');
-		$this->load->view('contents/contactus');
-		$this->load->view('contents/ourclient');
-		///$this->load->view('contents/emailconfirm');
-		$this->load->view('contents/policy');
-		//$this->load->view('contents/home');
-		$this->load->view('page/footer');	
+		$this->load->view('frontendcontents/head',$data);
+		$this->load->view('frontendcontents/header');
+		$this->load->view('frontendcontents/stuckmenu');
+		$this->load->view('frontendcontents/counter');
+		///$this->load->view('frontendcontents/slidecoursel');
+		$this->load->view('frontendcontents/aboutus');
+		$this->load->view('frontendcontents/product');
+		$this->load->view('frontendcontents/weoffer');
+		// $this->load->view('frontendcontents/contactus');
+		$this->load->view('frontendcontents/contactus_offline');
+		$this->load->view('frontendcontents/ourclient');
+		///$this->load->view('frontendcontents/emailconfirm');
+		$this->load->view('frontendcontents/policy');
+		//$this->load->view('frontendcontents/home');
+		$this->load->view('frontendcontents/footer');	
 	}
 	public function mail()
 	{
@@ -199,11 +188,11 @@ class Site extends CI_Controller {
 			),
 			'copyr'=>'Copyright &copy; Your Website 2016',
 		);
-		$this->load->view('page/head',$data);
-		$this->load->view('page/header');
-		$this->load->view('page/stuckmenu');
-		$this->load->view('contents/aboutus');
-		$this->load->view('page/footer');
+		$this->load->view('frontendcontents/head',$data);
+		$this->load->view('frontendcontents/header');
+		$this->load->view('frontendcontents/stuckmenu');
+		$this->load->view('frontendcontents/aboutus');
+		$this->load->view('frontendcontents/footer');
 	}
 	public function mailthree()
 	{
@@ -277,19 +266,19 @@ class Site extends CI_Controller {
 			),
 			'copyr'=>'Copyright &copy; Your Website 2016',
 		);
-		$this->load->view('page/head',$data);
-		$this->load->view('page/header');
-		$this->load->view('page/stuckmenu');
-		$this->load->view('contents/aboutus');
-		$this->load->view('page/footer');
+		$this->load->view('frontendcontents/head',$data);
+		$this->load->view('frontendcontents/header');
+		$this->load->view('frontendcontents/stuckmenu');
+		$this->load->view('frontendcontents/aboutus');
+		$this->load->view('frontendcontents/footer');
 	}
 	public function getformemail(){
         $data['chaptca'] = $this->get_chaptca(4).' '.$this->get_chaptca(3).' '.$this->get_chaptca(2);
-        $this->load->view('page/head',$data);
-		$this->load->view('page/header');
-		$this->load->view('page/stuckmenu');
-		$this->load->view('contents/form_login');   
-		$this->load->view('page/footer');
+        $this->load->view('frontendcontents/head',$data);
+		$this->load->view('frontendcontents/header');
+		$this->load->view('frontendcontents/stuckmenu');
+		$this->load->view('frontendcontents/form_login');   
+		$this->load->view('frontendcontents/footer');
      }
 	private function get_chaptca($param) // method pembuat chapta
        {
@@ -383,11 +372,11 @@ class Site extends CI_Controller {
 			),
 			'copyr'=>'Copyright &copy; Your Website 2016',
 		);
-		$this->load->view('page/head',$data);
-		$this->load->view('page/header');
-		$this->load->view('page/stuckmenu');
-		$this->load->view('contents/policy');
-		$this->load->view('page/footer');	
+		$this->load->view('frontendcontents/head',$data);
+		$this->load->view('frontendcontents/header');
+		$this->load->view('frontendcontents/stuckmenu');
+		$this->load->view('frontendcontents/policy');
+		$this->load->view('frontendcontents/footer');	
 	}
 	public function page_preview($id)
 	{
@@ -423,18 +412,50 @@ class Site extends CI_Controller {
 			'copyr'=>'Copyright &copy; Your Website 2016',
 			'ID'=>$id,
 		);
-		$this->load->view('page/head',$data);
-		// $this->load->view('page/header');
-		// $this->load->view('page/stuckmenu');
-		$this->load->view('contents/dinamis_page');
-		$this->load->view('page/footer');	
+		$this->load->view('frontendcontents/head',$data);
+		// $this->load->view('frontendcontents/header');
+		// $this->load->view('frontendcontents/stuckmenu');
+		$this->load->view('frontendcontents/dinamis_page');
+		$this->load->view('frontendcontents/footer');	
 		
 		// $this->load->view('backendcontents/head', $data);
 		// $this->load->view('backendcontents/header');
-		// $this->load->view('contents/dinamis_page');
+		// $this->load->view('frontendcontents/dinamis_page');
 		//$this->load->view('backendcontents/footer');
 		// $this->load->view('backendcontents/foot');
 	}
+	public function pesan()
+	{
+		if($this->input->post('txt_chaptca')){
+			
+			if ($this->input->post('txt_chaptca_real')==$this->input->post('txt_chaptca')) {
+				$dataPost = array(
+						'name' => htmlentities($this->input->post('name')),
+						'email' => htmlentities($this->input->post('email')),
+						'phone' => htmlentities($this->input->post('phone')),
+						'message' =>htmlentities($this->input->post('message')),
+					);
+			}
+
+			$this->load->database();
+			$this->db->insert('pesan', $dataPost);
+			
+			if (!$dataPost) {
+				print json_encode('gagal mengirim pesan.');
+				redirect(base_url());
+				// $this->index('Gagal');
+			} else {
+				print json_encode('berhasil mengirim pesan.');
+				redirect(base_url());
+				// $this->index('Sukses');
+			}
+
+		}
+		
+	}
+	
+	
+	
 	
 	
 

@@ -1,0 +1,920 @@
+a:2:{s:6:"expire";i:1488894855;s:7:"headers";a:0:{}}ENDCI---><!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Sarana Lintas Data</title>
+<meta charset="utf-8">
+<meta name="format-detection" content="telephone=no" />
+<link rel="icon" href="http://192.168.1.5/stable/assets/images/favicon.png">
+<!--<link rel="shortcut icon" href="http://192.168.1.5/stable/assets/images/favicon.ico" />-->
+<link rel="stylesheet" href="http://192.168.1.5/stable/assets/css/style.css">
+<meta name="description" content="SARANA LINTAS DATA merupakan badan usaha yang bergerak dalam bisnis Telekomunikasi, Informatika, Web Developer dan Software Developer.">
+<meta name="author" content="Fandi">
+
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css">
+<link rel="stylesheet" href="http://localhost:801/cdn/css/bootstrap.min.css">
+<link rel="stylesheet" href="http://localhost:801/cdn/font-awesome/css/font-awesome.min.css">
+
+<link rel="stylesheet" href="http://192.168.1.5/stable/assets/css/contact-form.css">
+
+	<!-- jQuery -->
+    <script type="text/javascript" src="http://localhost:801/cdn/bower_components/jquery/dist/jquery.min.js"></script>
+
+</head>
+<body><!--==============================
+              header
+=================================-->
+<header style="background: url(http://localhost/stable/assets/images/slide.jpg) center 0 no-repeat;">
+  <div class="container">
+    <div class="row">
+      <div class="grid_12 rel">
+        <h1>
+          <a href="http://192.168.1.5/stable/">
+            <img src="http://localhost/stable/assets/images/logo.png" alt="Logo">
+          </a>
+        </h1>
+      </div>
+    </div>
+  </div>
+  <section id="stuck_container" >
+  <!--==============================
+              Stuck menu
+  =================================-->
+    <div class="container">
+      <div class="row">
+        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+          <div class="navigation ">
+            <nav id="myNavbar">
+				<!--<div class="collapse navbar-collapse" >-->
+					<ul class="nav navbar-nav sf-menu" >
+						<li class="current"><a href="http://192.168.1.5/stable/site.html">Home</a></li>
+						<li><a href="#About">About</a></li>
+						<li><a href="#Product">Product</a></li>
+						<li><a href="#What-We-Offer">What We Offer</a></li>
+						<li><a href="#Contact-Us">Contacts</a></li>
+						<li><a href="#Our-Client">Our Client</a></li>
+					</ul>
+				<!--</div>-->
+            </nav>
+            <div class="clear"></div>
+          </div>  
+		  
+         <div class="clear"></div>  
+        </div>
+     </div> 
+    </div> 
+	
+
+
+<!--	
+	<nav class="navbar navbar-inverse navbar-fixed-top">
+  <div class="container-fluid">
+    <div class="navbar-header">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>                        
+      </button>
+
+    </div>
+    <div>
+      <div class="collapse navbar-collapse" id="myNavbar">
+        <ul class="nav navbar-nav">
+          <li><a href="#section1">Section 1</a></li>
+          <li><a href="#section2">Section 2</a></li>
+          <li><a href="#section3">Section 3</a></li>
+          <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">Section 4 <span class="caret"></span></a>
+            <ul class="dropdown-menu">
+              <li><a href="#section41">Section 4-1</a></li>
+              <li><a href="#section42">Section 4-2</a></li>
+            </ul>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</nav>-->
+  </section>
+  <section class="page1_header">
+    <div class="container">
+		<div class="row">
+			<div class="col-xs-12 col-sm-6 col-md-6 col-lg-4">
+				<div class="row">
+				<a href="#contact-us" class="col-xs-6 col-sm-6 col-md-6 col-lg-6 grow bga mygrid scroll" style="text-decoration:none"><div class="maxheight1">
+				<div class="fa fa-globe"></div>Global Research</div>
+				</a>
+				<a href="#contact-us" class="col-xs-6 col-sm-6 col-md-6 col-lg-6 grow bgb mygrid scroll" style="text-decoration:none"><div class="maxheight1">
+				<div class="fa fa-lightbulb-o"></div>Creative Ideas</div>
+				</a>
+				</div>
+				<div class="row">
+				<a href="#contact-us" class="col-xs-6 col-sm-6 col-md-6 col-lg-6 grow bgb mygrid scroll" style="text-decoration:none"><div class="maxheight1">
+				<div class="fa fa-cog"></div>New Services</div>
+				</a>
+				<a href="#contact-us" class="col-xs-6 col-sm-6 col-md-6 col-lg-6 grow bga mygrid scroll" style="text-decoration:none"><div class="maxheight1">
+				<div class="fa fa-briefcase"></div>Pro Management</div>
+				</a>
+				</div>
+			</div>
+			<div class="col-xs-12 col-sm-6 col-md-6 col-lg-8">
+				<div class="row">
+				<div class="col-xs-12 col-sm-2 col-md-2 col-lg-2">
+				  <h2 class="hidden-xs">Strong Stable Safe</h2>
+				</div>
+				</div>
+				<div class="row">
+				<div class="col-xs-12 col-sm-10 col-md-10 col-lg-8">
+				  We help you run your business in a successful way				</div>
+				</div>
+			</div>
+		</div>
+    </div>
+  </section>
+</header>
+<div class="block-1">
+  <div class="container">
+    <div class="row">
+      <div class="col-xs-12 col-sm-3 col-md-3 col-lg-3">
+        <div class="block-1_count">10</div>
+        Years of <br> Experience        <div class="clear"></div>
+      </div>
+      <div class="col-xs-12 col-sm-3 col-md-3 col-lg-3">
+        <div class="block-1_count">30</div>
+        Years of <br> Experience        <div class="clear"></div>
+      </div>
+      <div class="col-xs-12 col-sm-3 col-md-3 col-lg-3">
+        <div class="block-1_count">20</div>
+        Years of <br> Experience        <div class="clear"></div>
+      </div>
+      <div class="col-xs-12 col-sm-3 col-md-3 col-lg-3">
+        <a href="#Contact-Us" class="support"><img src="http://192.168.1.5/stable/assets/images/support.png" alt=""></a>
+      </div>
+    </div>
+  </div>
+</div><!--=====================
+          Content
+======================-->
+<section id="content" class="line-bottom">
+  <div class="container landing-container" id="About" style="padding-top:80px">
+    <div class="row" >
+		<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+			<h3>About Us</h3>
+		</div>
+	</div>
+	<br/>
+
+		<div class="row" style="padding-bottom:20px">
+<div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
+<p style="text-align:center"><img alt="About img" height="164" src="http://localhost/stable/assets/images/page2_img1.jpg" width="168" /></p>
+</div>
+
+<div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
+<p><a href="#">SARANA LINTAS DATA merupakan badan usaha yang bergerak dalam bisnis Telekomunikasi, Informatika, Web Developer dan Software Developer.</a></p>
+
+<p>SARANA LINTAS DATA didukung oleh para profesional muda yang berpengalaman dibidangnya dan sangat berkompeten.</p>
+</div>
+
+<div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
+<p>Dengan tenaga kerja yang sangat mumpuni ini kami menyediakan layanan Tecnical Support selama 6 hari. Hal ini semata-mata karena untuk memenuhi komitmen kami untuk selalu mengedepankan kualitas produk dan layanan guna menjaga dan memelihara kepercayaan konsumen atas kinerja kami.</p>
+</div>
+</div>
+
+<div class="row">
+<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+<p>Sejak awal didirikannya pada tanggal 28 Desember 2014 hingga saat ini, SARANA LINTAS DATA telah mengalami berbagai transformasi. Transformasi dari usaha kecil untuk mereparasi hardware personal computer, tumbuh hingga menjadi usaha solusi teknologi jaringan dan multimedia untuk kepentingan entertaiment hingga akhirnya berkembang hingga saat ini menjadi usaha telekomunikasi, informatika, web developer dan software developer dengan sumberdaya manusia yang mampu menjawab tantangan dunia ICT yang semakin ketat persaingannya.</p>
+</div>
+</div>
+
+    </div>
+ <br/>
+</section>
+  <section class="page1_header">
+    <div class="container landing-container" id="Product" style="padding-top:80px">
+      <div class="row">
+		<div class="container-fluid">	
+			<!--
+			<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 ">
+			<h3>Product</h3>
+							  <a href="#INTERNET_CONNECTION" class="col-xs-12 col-sm-4  grow bga mygrid scroll" style="text-decoration:none"><div class="maxheight">
+				<div class="fa fa-wifi"></div>INTERNET CONNECTION</div>
+			  </a>
+							</div>-->
+			<h3>Product</h3>
+			<div class="col-xs-12 col-sm-12">
+							<a href="#ic" class="col-xs-12 col-sm-4  grow mygrid scroll" style="text-decoration:none;background-color:#3495cd;"><div class="maxheight">
+					<div class="fa fa-wifi"></div>INTERNET CONNECTION</div>
+				</a>
+							<a href="#ds" class="col-xs-12 col-sm-4  grow mygrid scroll" style="text-decoration:none;background-color:#2E81B1;"><div class="maxheight">
+					<div class="fa fa-bars"></div>DEDICATED AND CO-LOCATION SERVER</div>
+				</a>
+							<a href="#matv" class="col-xs-12 col-sm-4  grow mygrid scroll" style="text-decoration:none;background-color:#2A729C;"><div class="maxheight">
+					<div class="fa fa-desktop"></div>MATV (MASTER ANTENA TV)</div>
+				</a>
+							<a href="#ss" class="col-xs-12 col-sm-4  grow mygrid scroll" style="text-decoration:none;background-color:#27658A;"><div class="maxheight">
+					<div class="fa fa-video-camera"></div>CCTV, IP CAMERA AND SYSTEM SUPERVEILLANCE</div>
+				</a>
+							<a href="#vc" class="col-xs-12 col-sm-4  grow mygrid scroll" style="text-decoration:none;background-color:#235C7D;"><div class="maxheight">
+					<div class="fa fa-comment-o"></div>IP PBX, VOIP AND VIDEO CONFERENCE</div>
+				</a>
+							<a href="#ma" class="col-xs-12 col-sm-4  grow mygrid scroll" style="text-decoration:none;background-color:#1F4F6B;"><div class="maxheight">
+					<div class="fa fa-volume-down"></div>SOUNDS SYSTEM AND MULTIMEDIA ADVERTISING</div>
+				</a>
+							<a href="#wsd" class="col-xs-12 col-sm-4  grow mygrid scroll" style="text-decoration:none;background-color:#1B445D;"><div class="maxheight">
+					<div class="fa fa-html5"></div>WEB & SOFTWARE DEVELOPER</div>
+				</a>
+							<a href="#wh" class="col-xs-12 col-sm-4  grow mygrid scroll" style="text-decoration:none;background-color:#17394E;"><div class="maxheight">
+					<div class="fa fa-globe"></div>WEB HOSTING & DOMAIN REGISTRATION</div>
+				</a>
+							<a href="#wsa" class="col-xs-12 col-sm-4  grow mygrid scroll" style="text-decoration:none;background-color:#102938;"><div class="maxheight">
+					<div class="fa fa-envelope"></div>WEB MAIL, MAIL SERVER & APPLICATION</div>
+				</a>
+						<!--
+			  <a href="#INTERNET_CONNECTION" class="col-xs-12 col-sm-4  grow bga mygrid scroll" style="text-decoration:none">
+				<div class="maxheight">
+					<div class="fa fa-wifi"></div>
+					INTERNET CONNECTION
+				</div>
+			  </a>
+			  
+			  <a href="#DEDICATED" class="col-xs-12 col-sm-4  grow bgb mygrid scroll" style="text-decoration:none"><div class="maxheight">
+				<div class="fa fa-bars"></div>DEDICATED AND CO-LOCATION SERVER</div>
+			  </a>
+			  <a href="#MATV" class="col-xs-12 col-sm-4  grow bgc mygrid" style="text-decoration:none"><div class="maxheight">
+				<div class="fa fa-desktop"></div>MATV (MASTER ANTENA TV)</div>
+			  </a>
+			
+			  <a href="#CCTV" class="col-xs-12 col-sm-4  grow bgd mygrid scroll" style="text-decoration:none"><div class="maxheight">
+				<div class="fa fa-video-camera"></div>CCTV, IP CAMERA AND SYSTEM SUPERVEILLANCE</div>
+			  </a>
+			  <a href="#VIDEO_CONFERENCE" class="col-xs-12 col-sm-4  grow bge mygrid scroll" style="text-decoration:none"><div class="maxheight">
+				<div class="fa fa-comment-o"></div>IP PBX, VOIP AND VIDEO CONFERENCE</div>
+			  </a>
+			  <a href="#SOUNDS_SYSTEM" class="col-xs-12 col-sm-4  grow bgf mygrid scroll" style="text-decoration:none"><div class="maxheight">
+				<div class="fa fa-volume-down"></div>SOUNDS SYSTEM AND MULTIMEDIA ADVERTISING</div>
+			  </a>
+			
+			  <a href="#SOFTWARE_DEVELOPER" class="col-xs-12 col-sm-4  grow bgg mygrid scroll" style="text-decoration:none"><div class="maxheight">
+				<div class="fa fa-html5"></div>WEB & SOFTWARE DEVELOPER</div>
+			  </a>
+			  <a href="#WEB_HOSTING" class="col-xs-12 col-sm-4  grow bgh mygrid scroll" style="text-decoration:none"><div class="maxheight">
+				<div class="fa fa-globe"></div>WEB HOSTING & DOMAIN REGISTRATION</div>
+			  </a>
+			  <a href="#WEB_MAIL" class="col-xs-12 col-sm-4  grow bgi mygrid ?> scroll" style="text-decoration:none"><div class="maxheight">
+				<div class="fa fa-envelope"></div>WEB MAIL, MAIL SERVER & APPLICATION</div>
+			  </a>
+			-->
+			</div>
+		</div>
+      </div>
+    </div>
+  </section>
+
+  <section id="content line-bottom">  
+    <div class="container">
+      <div class="row">
+		<div class="container-fluid">
+	<div class="container" id="grid">
+		<div class="row">		
+							<div id="ic" class="col-xs-12 col-sm-12" style="padding-top:80px;" >
+				<img class="img-responsive" src="http://192.168.1.5/stable/assets/images/fiber.png" alt="INTERNET CONNECTION">
+				<h3>INTERNET CONNECTION</h3>
+				<p>Layanan Internet dengan paket data beda bandwidth antara Global IX (international content) dan Domestik IIX / Open IXP (local content) dengan kapasitas yang simetris antara download dan upload 1:1 sesuai dengan kebutuhan pelanggan, dengan strategi implementasi untuk segmen perkantoran, Pabrik, Cafe, Hotel dan Exhibition Center. SARANA LINTAS DATA menyediakan fasilitas manajemen koneksi akses ke Internet secara dedicated routing dengan kecepatan yang bervariasi. Dengan layanan ini pelanggan dapat menikmati layanan akses Internet secara dedicated routing dengan kenyamanan akses selama 24 jam sehari dengan performansi yang handal.</p>
+				</div>
+				
+							<div id="ds" class="col-xs-12 col-sm-12" style="padding-top:80px;" >
+				<img class="img-responsive" src="http://192.168.1.5/stable/assets/images/Dedicated-Server.png " alt="DEDICATED AND CO-LOCATION SERVER">
+				<h3>DEDICATED AND CO-LOCATION SERVER</h3>
+				<p>SARANA LINTAS DATA Layanan hosting server atau penitipan server di data center sehingga server Anda dapat diakses dari internet by remote. Anda hanya cukup membawa server dan kami yang menyediakan tempat, listrik dan koneksi internet. Layanan colocation server kami berada di Gedung Cyber, Jakarta-lndonesia dan di Gedung Intiland Tower, Surabaya-Indonesia.</p>
+				</div>
+				
+							<div id="matv" class="col-xs-12 col-sm-12" style="padding-top:80px;" >
+				<img class="img-responsive" src="http://192.168.1.5/stable/assets/images/MATV.jpg" alt="MATV (MASTER ANTENA TV)">
+				<h3>MATV (MASTER ANTENA TV)</h3>
+				<p>Kami juga menyediakan kebutuhan klien yaitu MATV (Master Antenna TV), dimana perangkat HeadEnd kami konsepkan secara matang untuk memenuhi kebutuhan Channel TV premium di Hotel dan Apartemen anda. Kami juga melayani kebutuhan pelanggan dalam jasa instalasi CATV (Client Antenna TV).</p>
+				</div>
+				
+							<div id="ss" class="col-xs-12 col-sm-12" style="padding-top:80px;" >
+				<img class="img-responsive" src="http://192.168.1.5/stable/assets/images/cctv.jpg" alt="CCTV, IP CAMERA AND SYSTEM SUPERVEILLANCE">
+				<h3>CCTV, IP CAMERA AND SYSTEM SUPERVEILLANCE</h3>
+				<p>SARANA LINTAS DATA menawarkan solusi untuk system pangawasan dengan teknologi update menggunakan kamera CCTV (Closed-circuit television) dan IP Camera yang berkualitas. Produk CCTV kami dapat diintregasikan dengan jaringan internet sehingga memudahkan pengguna untuk memonitoring atau memantau keadaan rumah, kantor, gudang, toko, pabrik ataupun tempat usaha lainnya tanpa harus berada di lokasi seharian, sehingga bisa dipantau melalui Handphone, Laptop, Tablet PC, Komputer di mana saja dan kapan saja. SARANA LINTAS DATA menjamin adanya layanan Service after sales support yang bagus. SARANA LINTAS DATA memiliki team yang berpengalaman menangani system CCTV serta perangkat pendukung lainnya, yang sudah mendapat kepercayaan dari Instansi, Sekolah, Hotel dan Perusahaan besar lainnya.</p>
+				</div>
+				
+							<div id="vc" class="col-xs-12 col-sm-12" style="padding-top:80px;" >
+				<img class="img-responsive" src="http://192.168.1.5/stable/assets/images/video-conference.jpg" alt="IP PBX, VOIP AND VIDEO CONFERENCE">
+				<h3>IP PBX, VOIP AND VIDEO CONFERENCE</h3>
+				<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12" id="VIDEO_CONFERENCE" style="padding-top:80px">Secara umum manfaat dari layanan IP PBX (private branch exchange) adalah memberikan alternatif bagi perusahaan untuk mendapatkan jaringan private komunikasi suara baik untuk menghubungkan kantor pusat dengan cabang-cabangnnya, dengan remote user, interkoneksi dengan jaringan IP, atau juga dapat dengan jaringan PSTN. Melalui pemanfaatan teknologi IP maka layanan IP PBX lebih ekonomis dibanding layanan tradisional VPN berbasis TDM (centrex) atau hubungan antar PABX melalui leased circuit (LC) convensional. Adapun manfaat dan keunggulan layanan IP PBX : 1.) Menyediakan layanan jaringan telepon pribadi yang lebih ekonomis (efisiensi biaya) dan Jauh lebih mudah dikonfigurasi dibanding sistem telepon konvensional. 2.) Jangkauan area luas dan pelanggan dapat membangun jaringan pribadi (close user group) untuk area yang tersebar. 3.) Tidak perlu lagi kabel telepon. 4.) Dengan IP PBX konsumen dapat memberikan layanan kepada pelanggan menjadi lebih baik dan meningkatkan produktivitas, karena sistem telepon berbasis computer dapat mengintegrasikan fungsi telepon dengan aplikasi bisnis</div>
+
+<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12" id="SOUNDS_SYSTEM" style="padding-top:80px">&nbsp;</div>
+				</div>
+				
+							<div id="ma" class="col-xs-12 col-sm-12" style="padding-top:80px;" >
+				<img class="img-responsive" src="http://192.168.1.5/stable/assets/images/sound-system.jpg" alt="SOUNDS SYSTEM AND MULTIMEDIA ADVERTISING">
+				<h3>SOUNDS SYSTEM AND MULTIMEDIA ADVERTISING</h3>
+				<p>SARANA LINTAS DATA menyediakan kebutuhan klien dengan respon cepat dalam kebutuhan Audio dan Multimedia. Kami siap memberikan pelatihan teknis dan Jasa Instalasi Audio untuk Ball Room, Full Band, Acoustic, Karaoke dan System Audio Gedung</p>
+				</div>
+				
+							<div id="wsd" class="col-xs-12 col-sm-12" style="padding-top:80px;" >
+				<img class="img-responsive" src="http://192.168.1.5/stable/assets/images/software-development.png" alt="WEB & SOFTWARE DEVELOPER">
+				<h3>WEB & SOFTWARE DEVELOPER</h3>
+				<p>Web yang kompleks sesuai dengan permintaan dan kebutuhan anda, Membuat Sistem Acounting berbasis web, Portal, Ticketing System, Billing System dan lain Sebagainya. dengan tim yang ahli di bidang PHP dan .NET. Serta melayani request Software Hospitality (Hotel), POS (Point Of Sale), Accounting / finace dan HR System.</p>
+				</div>
+				
+							<div id="wh" class="col-xs-12 col-sm-12" style="padding-top:80px;" >
+				<img class="img-responsive" src="http://192.168.1.5/stable/assets/images/web-hosting.jpg" alt="WEB HOSTING & DOMAIN REGISTRATION">
+				<h3>WEB HOSTING & DOMAIN REGISTRATION</h3>
+				<p>Linux hosting, windows ASP hosting, JSP hosting, Mail hosting, blog hosting dan registrasi domain dengan menggunakan control panel CPanel dan Plesk Daily Backup</p>
+				</div>
+				
+							<div id="wsa" class="col-xs-12 col-sm-12" style="padding-top:80px;" >
+				<img class="img-responsive" src="http://192.168.1.5/stable/assets/images/web-mail.jpg" alt="WEB MAIL, MAIL SERVER & APPLICATION">
+				<h3>WEB MAIL, MAIL SERVER & APPLICATION</h3>
+				<p>Layanan Webmail dan Mail Server adalah layanan e-mail yang ditujukan secara khusus untuk diakses melalui browser dengan nama domain pribadi tanpa harus menggunakan domain yahoo, hotmail, gmail, etc. Dengan kata lain, pemakai e-mail bisa mengakses e-mail tanpa perlu menggunakan program e-mail client. Keuntungan Webmail adalah pemakai dapat mengirim dan menerima e-mail dari mana saja dengan cukup menggunakan browser atau MS Outlook.</p>
+				</div>
+				
+						<!--
+			<div id="INTERNET_CONNECTION" class="col-xs-12 col-sm-12" style="padding-top:80px;" >
+			<img class="img-responsive" src="http://192.168.1.5/stable/assets\images\fiber.png" alt="fiber internet">
+			<h3>INTERNET CONNECTION</h3>
+			Layanan Internet dengan paket data beda bandwidth antara Global IX
+			(international content) dan Domestik IIX / Open IXP (local content) dengan
+			kapasitas yang simetris antara download dan upload 1:1 sesuai dengan
+			kebutuhan pelanggan, dengan strategi implementasi untuk segmen perkantoran,
+			Pabrik, Cafe, Hotel dan Exhibition Center.
+			SARANA LINTAS DATA menyediakan fasilitas manajemen koneksi akses ke Internet
+			secara dedicated routing dengan kecepatan yang bervariasi.
+			Dengan layanan ini pelanggan dapat menikmati layanan akses Internet secara
+			dedicated routing dengan kenyamanan akses selama 24 jam sehari dengan 
+			performansi yang handal.</div>
+			<div id="DEDICATED" class="col-xs-12 col-sm-12 col-md-12 col-lg-12" style="padding-top:80px;">
+			<img class="img-responsive" src="http://192.168.1.5/stable/assets\images\Dedicated-Server.png" alt="fiber internet">
+			<h3>DEDICATED AND CO-LOCATION SERVER</h3>
+			SARANA LINTAS DATA Layanan hosting server atau penitipan server di data center
+			sehingga server Anda dapat diakses dari internet by remote. Anda hanya cukup
+			membawa server dan kami yang menyediakan tempat, listrik dan koneksi internet.
+			Layanan colocation server kami berada di Gedung Cyber, Jakarta-lndonesia dan
+			di Gedung Intiland Tower, Surabaya-Indonesia.</div>
+			<div id="MATV" class="col-xs-12 col-sm-12 col-md-12 col-lg-12" style="padding-top:80px;">
+			<img class="img-responsive" src="http://192.168.1.5/stable/assets\images\MATV.jpg" alt="MATV">
+			<h3>MATV (MASTER ANTENA TV)</h3>Kami juga menyediakan kebutuhan klien yaitu MATV (Master Antenna TV), dimana
+			perangkat HeadEnd kami konsepkan secara matang untuk memenuhi kebutuhan
+			Channel TV premium di Hotel dan Apartemen anda.
+			Kami juga melayani kebutuhan pelanggan dalam jasa instalasi CATV
+			(Client Antenna TV).</div>
+
+			<div id="CCTV" class="col-xs-12 col-sm-12 col-md-12 col-lg-12" style="padding-top:80px;">
+			<img class="img-responsive" src="http://192.168.1.5/stable/assets\images\cctv.jpg" alt="CCTV">
+			<h3>CCTV, IP CAMERA AND SYSTEM SUPERVEILLANCE</h3>
+			SARANA LINTAS DATA menawarkan solusi untuk system pangawasan dengan
+			teknologi update menggunakan kamera CCTV (Closed-circuit television) dan
+			IP Camera yang berkualitas.
+			Produk CCTV kami dapat diintregasikan dengan jaringan internet sehingga
+			memudahkan pengguna untuk memonitoring atau memantau keadaan rumah,
+			kantor, gudang, toko, pabrik ataupun tempat usaha lainnya tanpa harus berada
+			di lokasi seharian, sehingga bisa dipantau melalui Handphone, Laptop, Tablet PC,
+			Komputer di mana saja dan kapan saja.
+			SARANA LINTAS DATA menjamin adanya layanan Service after sales support yang
+			bagus. SARANA LINTAS DATA memiliki team yang berpengalaman menangani
+			system CCTV serta perangkat pendukung lainnya, yang sudah mendapat
+			kepercayaan dari Instansi, Sekolah, Hotel dan Perusahaan besar lainnya.</div>
+			<div id="VIDEO_CONFERENCE" class="col-xs-12 col-sm-12 col-md-12 col-lg-12" style="padding-top:80px;">
+			<img class="img-responsive" src="http://192.168.1.5/stable/assets\images\video-conference.jpg" alt="VIDEO CONFERENCE">
+			<h3>IP PBX, VOIP AND VIDEO CONFERENCE</h3>
+			Secara umum manfaat dari layanan IP PBX (private branch exchange) adalah
+			memberikan alternatif bagi perusahaan untuk mendapatkan jaringan private
+			komunikasi suara baik untuk menghubungkan kantor pusat dengan
+			cabang-cabangnnya, dengan remote user, interkoneksi dengan jaringan IP, atau
+			juga dapat dengan jaringan PSTN. Melalui pemanfaatan teknologi IP maka
+			layanan IP PBX lebih ekonomis dibanding layanan tradisional VPN berbasis TDM
+			(centrex) atau hubungan antar PABX melalui leased circuit (LC) convensional.
+			Adapun manfaat dan keunggulan layanan IP PBX :
+			1.) Menyediakan layanan jaringan telepon pribadi yang lebih
+			ekonomis (efisiensi biaya) dan Jauh lebih mudah dikonfigurasi
+			dibanding sistem telepon konvensional.
+			2.) Jangkauan area luas dan pelanggan dapat membangun
+			jaringan pribadi (close user group) untuk area yang tersebar.
+			3.) Tidak perlu lagi kabel telepon.
+			4.) Dengan IP PBX konsumen dapat memberikan layanan
+			kepada pelanggan menjadi lebih baik dan meningkatkan
+			produktivitas, karena sistem telepon berbasis computer dapat
+			mengintegrasikan fungsi telepon dengan aplikasi bisnis</div>
+			<div id="SOUNDS_SYSTEM" class="col-xs-12 col-sm-12 col-md-12 col-lg-12" style="padding-top:80px;">
+			<img class="img-responsive" src="http://192.168.1.5/stable/assets\images\sound-system.jpg" alt="sound system">
+			<h3>SOUNDS SYSTEM AND MULTIMEDIA ADVERTISING</h3>
+			SARANA LINTAS DATA menyediakan kebutuhan klien dengan respon cepat dalam
+			kebutuhan Audio dan Multimedia. Kami siap memberikan pelatihan teknis dan
+			Jasa Instalasi Audio untuk Ball Room, Full Band, Acoustic, Karaoke dan System
+			Audio Gedung</div>
+
+			<div id="SOFTWARE_DEVELOPER" class="col-xs-12 col-sm-12 col-md-12 col-lg-12" style="padding-top:80px;">
+			<img class="img-responsive" src="http://192.168.1.5/stable/assets\images\software-development.png" alt="fiber internet">
+			<h3>WEB & SOFTWARE DEVELOPER</h3>
+			Web yang kompleks sesuai dengan permintaan dan kebutuhan anda, Membuat
+			Sistem Acounting berbasis web, Portal, Ticketing System, Billing System dan lain
+			Sebagainya. dengan tim yang ahli di bidang PHP dan .NET. Serta melayani request
+			Software Hospitality (Hotel), POS (Point Of Sale), Accounting / finace dan
+			HR System.</div>
+			<div id="WEB_HOSTING" class="col-xs-12 col-sm-12 col-md-12 col-lg-12" style="padding-top:80px;">
+			<img class="img-responsive" src="http://192.168.1.5/stable/assets\images\web-hosting.jpg" alt="web hosting">
+			<h3>WEB HOSTING & DOMAIN REGISTRATION</h3>
+			Linux hosting, windows ASP hosting, JSP hosting, Mail hosting, blog hosting dan
+			registrasi domain dengan menggunakan control panel CPanel dan Plesk Daily
+			Backup</div>
+			<div id="WEB_MAIL" class="col-xs-12 col-sm-12 col-md-12 col-lg-12" style="padding-top:80px;">
+			<img class="img-responsive" src="http://192.168.1.5/stable/assets\images\web-mail.jpg" alt="web mail">
+			<h3>WEB MAIL, MAIL SERVER & APPLICATION</h3>
+			Layanan Webmail dan Mail Server adalah layanan e-mail yang ditujukan secara
+			khusus untuk diakses melalui browser dengan nama domain pribadi tanpa harus
+			menggunakan domain yahoo, hotmail, gmail, etc. Dengan kata lain, pemakai
+			e-mail bisa mengakses e-mail tanpa perlu menggunakan program e-mail client.
+			Keuntungan Webmail adalah pemakai dapat mengirim dan menerima
+			e-mail dari mana saja dengan cukup menggunakan browser atau MS Outlook.</div>
+			-->
+		</div>
+	</div>
+  <br/>
+  </section>
+<!--=====================
+          Content
+======================-->
+  <article class="content_gray offset__1 line-bottom line-top">
+    <div class="container landing-container" id="What-We-Offer" style="padding-top:80px">
+		<div class="row">
+			<div  class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+			  <h3>What We Offer</h3>
+			</div>
+		</div>
+	<br/>
+		
+		<div class="row" style="padding-bottom:40px">
+							<div class="col-lg-4 col-sm-6" style="padding-bottom:40px">
+					<div class="row">
+						<div class="col-xs-4 col-sm-3 col-md-3 col-lg-3">
+							<div class="block-3">
+								<div class="count">1</div>
+							</div>
+						</div>
+						<div class="col-xs-8 col-sm-9 col-md-8 col-lg-9">
+							<div class="extra_wrapper">
+								<div class="text1" style="padding-top:20px;min-height:66px"><a href="#What-We-Offer" data-toggle="popover" title="INTERNET CONNECTION" data-content="Layanan Internet dengan paket data beda bandwidth antara Global IX (international content) dan Domestik IIX / Open IXP (local content) dengan kapasitas yang simetris antara download dan upload 1:1 sesuai dengan kebutuhan pelanggal, dengan strategi implementasi untuk segment perkantoran, Pabrik, Cafe, Hotel dan Exhibition Center. SARANA LINTAS DATA menyediakan fasilitas manajemen koneksi akses ke Internet secara dedicated routing dengan kecepatan yang bervariasi. Dengan layanan ini pelanggan dapat menikmati layanan akses Internet secara dedicated routing dengan kenyamanan akses selama 24 jam sehari dengan performansi yang handal. ">INTERNET CONNECTION</a></div>
+							</div>
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-xs-4 col-sm-3 col-md-3 col-lg-3">
+						</div>
+						<div class="col-xs-8 col-sm-9 col-md-8 col-lg-9">							<div class="extra_wrapper" >
+								Layanan Internet dengan paket data beda bandwidth antara Global IX (international content) dan Domestik IIX / Open IXP (local content) dengan kapasitas yang simetris antara download dan upload 1:1 sesuai dengan kebutuhan pelanggal, dengan strategi implementasi untuk segment perkantoran, Pabrik, Cafe 
+							</div>
+							  
+							<script>
+							$(document).ready(function(){
+								$('[data-toggle="popover"]').popover({placement: "bottom"});   
+							});
+							</script>
+
+						</div>
+					</div>
+				</div>
+							<div class="col-lg-4 col-sm-6" style="padding-bottom:40px">
+					<div class="row">
+						<div class="col-xs-4 col-sm-3 col-md-3 col-lg-3">
+							<div class="block-3">
+								<div class="count">2</div>
+							</div>
+						</div>
+						<div class="col-xs-8 col-sm-9 col-md-8 col-lg-9">
+							<div class="extra_wrapper">
+								<div class="text1" style="padding-top:20px;min-height:66px"><a href="#What-We-Offer" data-toggle="popover" title="DEDICATED AND CO-LOCATION SERVER" data-content="SARANA LINTAS DATA Layanan hosting server atau penitipan server di data center segingga server anda dapat diakses dari internet by remote. Anda hanya cukup membawa server dana kami yang menyediakan tempat, listrik dan koneksi internet. Layanan colocation server kami berada di Gedung Cyber, Jakarta-Indonesia dan di Gedung Intiland, Surabaya-Indonesia.
+">DEDICATED AND CO-LOCATION SERVER</a></div>
+							</div>
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-xs-4 col-sm-3 col-md-3 col-lg-3">
+						</div>
+						<div class="col-xs-8 col-sm-9 col-md-8 col-lg-9">							<div class="extra_wrapper" >
+								SARANA LINTAS DATA Layanan hosting server atau penitipan server di data center segingga server anda dapat diakses dari internet by remote. Anda hanya cukup membawa server dana kami yang menyediakan tempat, listrik dan koneksi internet. Layanan colocation server kami berada di Gedung Cyber, Jakarta-I 
+							</div>
+							  
+							<script>
+							$(document).ready(function(){
+								$('[data-toggle="popover"]').popover({placement: "bottom"});   
+							});
+							</script>
+
+						</div>
+					</div>
+				</div>
+							<div class="col-lg-4 col-sm-6" style="padding-bottom:40px">
+					<div class="row">
+						<div class="col-xs-4 col-sm-3 col-md-3 col-lg-3">
+							<div class="block-3">
+								<div class="count">3</div>
+							</div>
+						</div>
+						<div class="col-xs-8 col-sm-9 col-md-8 col-lg-9">
+							<div class="extra_wrapper">
+								<div class="text1" style="padding-top:20px;min-height:66px"><a href="#What-We-Offer" data-toggle="popover" title="MATV (MASTER ANTENA TV)" data-content="
+Kami juga menyediakan kebuutuhan klien yaitu MATV (Master Antena TV), dimana perangkat HeadEnd kami konsepkan secara matang untuk memenuhi kebutuhan Chanel TV premium di Hotel dan Apartemen anda. Kami juga melayani kebutuhan pelanggan dalam jasa instalasi CATV (Client Antenna TV).
+">MATV (MASTER ANTENA TV)</a></div>
+							</div>
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-xs-4 col-sm-3 col-md-3 col-lg-3">
+						</div>
+						<div class="col-xs-8 col-sm-9 col-md-8 col-lg-9">							<div class="extra_wrapper" >
+								
+Kami juga menyediakan kebuutuhan klien yaitu MATV (Master Antena TV), dimana perangkat HeadEnd kami konsepkan secara matang untuk memenuhi kebutuhan Chanel TV premium di Hotel dan Apartemen anda. Kami juga melayani kebutuhan pelanggan dalam jasa instalasi CATV (Client Antenna TV).
+ 
+							</div>
+							  
+							<script>
+							$(document).ready(function(){
+								$('[data-toggle="popover"]').popover({placement: "bottom"});   
+							});
+							</script>
+
+						</div>
+					</div>
+				</div>
+				
+				
+		</div>
+	
+    </div>
+    <br/>
+  </article>
+
+ <!--=====================
+          Content
+======================-->
+<section id="content" class="line-bottom">
+	<div class="container landing-container" id="Contact-Us" style="padding-top:80px;">
+	
+	<div class="row" >
+		<div  class="col-xs-12 col-sm-12">
+			<div class="map">
+			  <figure class="">
+				<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d24214.807650104907!2d-73.94846048422478!3d40.65521573400813!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sus!4v1395650655094" style="border:0"></iframe>
+			  </figure>
+			</div>
+		</div>
+	</div>
+	<div class="row" >
+		<div  class="col-xs-12 col-sm-4">
+			<h3>Contact Us</h3>
+		</div>
+		<div class="col-xs-12 col-sm-8">
+			<h3>Send Us E-Mail:</h3>
+		</div>
+	</div><br/>
+	<div class="row" >
+			<div class="col-xs-12 col-sm-4">	
+					<p>Untuk menjaga sevice level guarantee, SARANA LINTAS DATA menyediakan Helpdesk yang khusus melayani pelanggan korporasi, dan beroperasi di hari efektif kerja. SARANA LINTAS DATA Support menggunakan tool Network Monitoring System secara terintegrasi untuk memonitor layanan secara realtime dalam rangka membantu penanganan dan penyelesaian keluhan. Semoga Company Profile ini dapat memberikan informasi yang diperlukan dan dapat berlanjut kearah kerja sama yang baik Atas perhatian dan kerjasama yang baik kami ucapkan terima kasih</p>
+					
+				
+			</div>
+			<div class="col-xs-12 col-sm-8">
+				 <form action="http://192.168.1.5/stable/site/pesan.html" id="contact-form" method="post" accept-charset="utf-8">
+<input type="hidden" name="csrf_stable" value="4b19fb14a90bdb463be9e7bcaf63eebb" style="display:none;" />
+                  <div class="contact-form-loader"></div>
+                  <fieldset>
+                  
+						<div class="col-xs-12 col-sm-4 col-md-4 col-lg-4">
+						<label class="name">
+						  <input type="text" name="name" placeholder="Name:" value="" data-constraints="@Required @JustLetters"  />
+						  <span class="empty-message">*This field is required.</span>
+						  <span class="error-message">*This is not a valid name.</span>
+						</label>
+						</div>
+						<div class="col-xs-12 col-sm-4 col-md-4 col-lg-4">
+						<label class="email">
+						  <input type="text" name="email" placeholder="E-mail:" value="" data-constraints="@Required @Email" />
+						  <span class="empty-message">*This field is required.</span>
+						  <span class="error-message">*This is not a valid email.</span>
+						</label>
+						</div>
+						<div class="col-xs-12 col-sm-4 col-md-4 col-lg-4">
+						<label class="phone">
+						  <input type="text" name="phone" placeholder="Phone:" value="" data-constraints="@Required @JustNumbers" />
+						  <span class="empty-message">*This field is required.</span>
+						  <span class="error-message">*This is not a valid phone.</span>
+						</label>
+						</div> 
+					<div class="clearfix"></div>
+					<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+					<label class="message">
+                      <textarea name="message" placeholder="Message:" data-constraints='@Required @Length(min=20,max=999999)'></textarea>
+                      <span class="empty-message">*This field is required.</span>
+                      <span class="error-message">*The message is too short.</span>
+                    </label>
+					</div>
+					
+					<div class="clearfix"></div>
+					<div class="col-sm-6">
+						<div class="form-group">
+							
+							<input type="hidden" name="txt_chaptca_real" value="BZYA IAN BL" readonly />
+							
+							
+							<h1><del>BZYA IAN BL</del></h1>
+
+						</div>
+					</div>
+					<div class="col-sm-6">
+						<div class="form-group">
+							<input name="txt_chaptca" class="form-control" type="text" placeholder="type chaptca" required />
+							<button type="submit" class="btn col-sm-6 pull-right">Send</button>	
+						</div>
+					</div>
+						
+												
+								
+					
+                  </fieldset> 
+                  <div class="modal fade response-message">
+                    <div class="modal-dialog">
+                      <div class="modal-content">
+                        <div class="modal-header">
+                          <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                          <h4 class="modal-title">Modal title</h4>
+                        </div>
+                        <div class="modal-body">
+                          You message has been sent! We will be in touch soon.
+                        </div>      
+                      </div>
+                    </div>
+                  </div>
+</form>							</div>
+		</div>
+
+		<div class="row" >
+			<div class="col-xs-12 col-sm-4 col-md-4 col-lg-4">
+				<h3>Call number:</h3>
+				<div class="text3">
+				  +62822 3490 8886 <br>+62 857 5555 5254				</div>
+			</div>
+			<div class="col-xs-12 col-sm-4 col-md-4 col-lg-4">
+				<h3>E-mail:</h3>
+				<div class="text3">
+				  <a href="mail.google.com">saranalintasdata@gmail.com</a>
+				</div>
+			</div>
+		</div>
+
+	</div>
+  <br/>
+</section>
+<!--=====================
+          Content
+======================-->
+<section id="content" class="line-bottom">
+  <div class="container landing-container" id="Our-Client" style="padding-top:80px">
+    <div class="row" >
+      <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+        <h3>Our Client</h3>
+      </div>
+    </div>
+	<br/>
+	<div class="row">
+<div class="col-lg-3 col-md-3 col-sm-3 col-xs-12" style="padding-bottom:20px">
+<p><img alt="ourclient" src="http://localhost/stable/assets/images/ourclient_03.png" /></p>
+</div>
+
+<div class="col-lg-3 col-md-3 col-sm-3 col-xs-12" style="padding-bottom:20px">
+<p><img alt="ourclient" src="http://localhost/stable/assets/images/ourclient_04.png" /></p>
+</div>
+
+<div class="col-lg-3 col-md-3 col-sm-3 col-xs-12" style="padding-bottom:20px">
+<p><img alt="ourclient" src="http://localhost/stable/assets/images/ourclient_05.png" /></p>
+</div>
+
+<div class="col-lg-3 col-md-3 col-sm-3 col-xs-12" style="padding-bottom:20px">
+<p><img alt="ourclient" src="http://localhost/stable/assets/images/ourclient_06.png" /></p>
+</div>
+</div>
+
+<div class="row">
+<div class="col-lg-3 col-md-3 col-sm-3 col-xs-12" style="padding-bottom:20px">
+<p><img alt="ourclient" src="http://localhost/stable/assets/images/ourclient_09.png" /></p>
+</div>
+
+<div class="col-lg-3 col-md-3 col-sm-3 col-xs-12" style="padding-bottom:20px">
+<p><img alt="ourclient" src="http://localhost/stable/assets/images/ourclient_12.png" /></p>
+</div>
+
+<div class="col-lg-3 col-md-3 col-sm-3 col-xs-12" style="padding-bottom:20px">
+<p><img alt="ourclient" src="http://localhost/stable/assets/images/ourclient_15.png" /></p>
+</div>
+
+<div class="col-lg-3 col-md-3 col-sm-3 col-xs-12" style="padding-bottom:20px">
+<p><img alt="ourclient" src="http://localhost/stable/assets/images/ourclient_16.png" /></p>
+</div>
+</div>
+
+<div class="row">
+<div class="col-lg-3 col-md-3 col-sm-3 col-xs-12" style="padding-bottom:20px">
+<p><img alt="ourclient" src="http://localhost/stable/assets/images/ourclient_20.png" /></p>
+</div>
+
+<div class="col-lg-3 col-md-3 col-sm-3 col-xs-12" style="padding-bottom:20px">
+<p><img alt="ourclient" src="http://localhost/stable/assets/images/ourclient_23.png" /></p>
+</div>
+
+<div class="col-lg-3 col-md-3 col-sm-3 col-xs-12" style="padding-bottom:20px">
+<p><img alt="ourclient" src="http://localhost/stable/assets/images/ourclient_24.png" /></p>
+</div>
+
+<div class="col-lg-3 col-md-3 col-sm-3 col-xs-12" style="padding-bottom:20px">
+<p><img alt="ourclient" src="http://localhost/stable/assets/images/ourclient_26.png" /></p>
+</div>
+</div>
+  </div>
+  <br/>
+</section>
+<!--=====================
+          Modal Policy
+======================-->
+  <!-- Modal -->
+<div class="container">
+  <div class="modal fade" id="ModalPolicy" role="dialog" >
+    <div class="modal-dialog">
+    
+      <!-- Modal content-->
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+          <h4 class="modal-title" style="padding-top:0px">Privacy Policy</h4>
+        </div>
+        <div class="modal-body">
+          <p>Barang yang sudah dibeli tidak bisa ditukar atau dikembalikan. Lorem Ipsum.</p>
+        </div><!--
+        <div class="modal-footer">
+          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+        </div>-->
+      </div>
+      
+    </div>
+  </div>
+</div>
+
+<!--==============================
+              footer
+=================================-->
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8  col-md-10">
+                    <style>
+					span.copyright{position: relative;
+					top: -4px;
+					color: #000000;
+					font: 300 24px/20px 'Roboto Condensed', sans-serif;}
+					.copyright{
+					font-weight: normal;
+					color: #4b4a4a;}
+					footer{
+					padding: 25px 0;
+					border-top: 1px solid #5c5c5c;}
+					</style>
+					<p class="copyright text-muted"><span class="copyright">Sarana Lintas Data</span> <span class="copyright-year">&copy; 2017</span> | <a id="BtnModalPolicy" href="#">Privacy Policy</a></p>
+                </div>
+            </div>
+        </div>
+    </footer>
+	<a href="#" id="toTop" class="fa fa-chevron-up"></a>
+
+		
+
+		<!-- jQuery -->
+		<!--<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>-->
+		
+
+		<!-- Bootstrap Core JavaScript -->
+		<!--<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>-->
+		<script src="http://192.168.1.5/stable/assets/js/jquery-1.10.2.js"></script>
+		<script src="http://192.168.1.5/stable/assets/js/bootstrap.min.js"></script>
+		<script src="http://192.168.1.5/stable/assets/js/jquery-migrate-1.1.1.js"></script>
+		<script src="http://192.168.1.5/stable/assets/js/jquery.easing.1.3.js"></script>
+		<script src="http://192.168.1.5/stable/assets/js/script.js"></script> 
+		<script src="http://192.168.1.5/stable/assets/js/superfish.js"></script>
+		<script src="http://192.168.1.5/stable/assets/js/jquery.equalheights.js"></script>
+		<script src="http://192.168.1.5/stable/assets/js/jquery.mobilemenu.js"></script>
+		<script src="http://192.168.1.5/stable/assets/js/tmStickUp.js"></script>
+		<script src="http://192.168.1.5/stable/assets/js/jquery.ui.totop.js"></script>
+		<script src="http://192.168.1.5/stable/assets/js/scrollspy.min.js"></script>
+		<script src="https://www.google.com/recaptcha/api.js" async defer></script>
+		
+		
+
+		<!--stuck menu-->
+		<script>
+		 $(window).load(function(){
+		  $().UItoTop({ easingType: 'easeOutQuart' });
+		  $('#stuck_container').tmStickUp({});  
+		 }); 
+		</script>
+
+		<!--landing page-->
+		<script>
+		$(document).ready(function(){
+		  // Add scrollspy to <body>
+		  $('body').scrollspy({target: ".navbar", offset: 5000});   
+
+		  // Add smooth scrolling on all links inside the navbar
+		  $("#myNavbar a").on('click', function(event) {
+			// Make sure this.hash has a value before overriding default behavior
+			if (this.hash !== "") {
+			  // Prevent default anchor click behavior
+			  event.preventDefault();
+
+			  // Store hash
+			  var hash = this.hash;
+
+			  // Using jQuery's animate() method to add smooth page scroll
+			  // The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
+			  $('html, body').animate({
+				scrollTop: $(hash).offset().top
+			  }, 800, function(){
+		   
+				// Add hash (#) to URL when done scrolling (default click behavior)
+				window.location.hash = hash;
+			  });
+			}  // End if
+		  });
+		  
+		});
+		</script>
+
+
+		
+		<!--slider coursel-->
+		<script>
+		$(document).ready(function(){
+			// Activate Carousel
+			$("#myCarousel").carousel();
+			
+			// Enable Carousel Indicators
+			$(".item1").click(function(){
+				$("#myCarousel").carousel(0);
+			});
+			$(".item2").click(function(){
+				$("#myCarousel").carousel(1);
+			});
+			$(".item3").click(function(){
+				$("#myCarousel").carousel(2);
+			});
+			$(".item4").click(function(){
+				$("#myCarousel").carousel(3);
+			});
+			
+			// Enable Carousel Controls
+			$(".left").click(function(){
+				$("#myCarousel").carousel("prev");
+			});
+			$(".right").click(function(){
+				$("#myCarousel").carousel("next");
+			});
+		});
+		</script>
+		
+		<!--sticky header-->
+		<script>
+		$(window).scroll(function() {
+		if ($(this).scrollTop() > 1){  
+			$('header').addClass("sticky");
+		  }
+		  else{
+			$('header').removeClass("sticky");
+		  }
+		});
+		</script>
+		
+		<!--modal email konfirmasi-->
+		<script>
+		$(document).ready(function(){
+			$("#btnSend").click(function(){
+				$("#myModal").modal();
+			});
+		});
+		</script>
+		<!--modal policy-->
+		<script>
+		$(document).ready(function(){
+			$("#BtnModalPolicy").click(function(){
+				$("#ModalPolicy").modal();
+			});
+		});
+		</script>
+		<!--menghitung kunjungan-->
+		<script>
+		$(document).ready(function(){
+			// $.getJSON("http://localhost:801/stable/Statistic/index", function(result){
+			// });
+		});
+		</script>
+
+</body>
+</html>

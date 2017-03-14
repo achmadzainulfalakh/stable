@@ -1,7 +1,64 @@
-
+<?php 
+$where=array('post_type'=>'whatweoffer');
+$orderby='menu_order';
+$posts=$this->posts_model->get_post_orderby($where,$orderby); 
+?>
 <!--=====================
           Content
 ======================-->
+  <article class="content_gray offset__1 line-bottom line-top">
+    <div class="container landing-container" id="What-We-Offer" style="padding-top:80px">
+		<div class="row">
+			<div  class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+			  <h3>What We Offer</h3>
+			</div>
+		</div>
+	<br/>
+		
+		<div class="row" style="padding-bottom:40px">
+			<?php foreach($posts as $val){ ?>
+				<div class="col-lg-4 col-sm-6" style="padding-bottom:40px">
+					<div class="row">
+						<div class="col-xs-4 col-sm-3 col-md-3 col-lg-3">
+							<div class="block-3">
+								<div class="count"><?php echo $val->menu_order ?></div>
+							</div>
+						</div>
+						<div class="col-xs-8 col-sm-9 col-md-8 col-lg-9">
+							<div class="extra_wrapper">
+								<div class="text1" style="padding-top:20px;min-height:66px"><a href="#What-We-Offer" data-toggle="popover" title="<?php print $val->post_title ?>" data-content="<?php echo $val->post_content ?>"><?php print $val->post_title ?></a></div>
+							</div>
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-xs-4 col-sm-3 col-md-3 col-lg-3">
+						</div>
+						<div class="col-xs-8 col-sm-9 col-md-8 col-lg-9"><?php $find = array(")","("," ","+","-");?>
+							<div class="extra_wrapper" >
+								<?php print substr($val->post_content,0,300) ?> 
+							</div>
+							  
+							<script>
+							$(document).ready(function(){
+								$('[data-toggle="popover"]').popover({placement: "bottom"});   
+							});
+							</script>
+
+						</div>
+					</div>
+				</div>
+			<?php } ?>	
+				
+		</div>
+	
+    </div>
+    <br/>
+  </article>
+
+ <?php
+//Backup content don't remove
+/*
+
   <article class="content_gray offset__1 line-bottom line-top">
     <div class="container landing-container" id="What-We-Offer" style="padding-top:80px">
 		<div class="row">
@@ -80,3 +137,6 @@
     </div>
     <br/>
   </article>
+
+*/
+?>

@@ -60,7 +60,18 @@ class Settings_model extends CI_Model {
 		$row=$query->row();
 		return $row->post_title;		
 	}
-	
+	function get_top_menu(){		
+		return array(
+						'<li><a id="resetBtn" class="pull-left" href="#">Reset Pendaftar</a></li>',
+						'<li><a class="pull-left" href="login/logout">Logout</a></li>',
+					);	
+	}
+	function get_side_menu(){		
+		return array(
+						'<li><a id="resetBtn" class="pull-left" href="#">Reset Pendaftar</a></li>',
+						'<li><a class="pull-left" href="login/logout">Logout</a></li>',
+					);
+	}
 	
 	/* end fungsi restrict */
 }

@@ -2,40 +2,57 @@
     <div class="container landing-container" id="Product" style="padding-top:80px">
       <div class="row">
 		<div class="container-fluid">	
+			<!--
 			<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 ">
 			<h3>Product</h3>
-			  <a href="#INTERNET_CONNECTION" class="col-xs-12 col-sm-4 col-md-4 col-lg-4 grow bga mygrid scroll" style="text-decoration:none"><div class="maxheight">
-				<div class="fa fa-wifi"></div>INTERNET CONNECTION</div>
+				<?php //foreach($this->posts_model->get_posts_filterby(array('post_type'=>'product')) as $val){ ?>
+			  <a href="#INTERNET_CONNECTION" class="col-xs-12 col-sm-4  grow bga mygrid scroll" style="text-decoration:none"><div class="maxheight">
+				<div class="fa fa-wifi"></div><?php //print $val->post_title ?>INTERNET CONNECTION</div>
+			  </a>
+				<?php //} ?>
+			</div>-->
+			<h3>Product</h3>
+			<div class="col-xs-12 col-sm-12">
+			<?php foreach($this->posts_model->get_posts_filterby(array('post_type'=>'product')) as $val){ ?>
+				<a href="#<?php print $val->post_name ?>" class="col-xs-12 col-sm-4  grow mygrid scroll" style="text-decoration:none;background-color:<?php print  '#'.$val->post_password ?>;"><div class="maxheight">
+					<div class="fa <?php print $val->guid ?>"></div><?php print $val->post_title ?></div>
+				</a>
+			<?php } ?>
+			<!--
+			  <a href="#INTERNET_CONNECTION" class="col-xs-12 col-sm-4  grow bga mygrid scroll" style="text-decoration:none">
+				<div class="maxheight">
+					<div class="fa fa-wifi"></div>
+					INTERNET CONNECTION
+				</div>
 			  </a>
 			  
-			  <a href="#DEDICATED" class="col-xs-12 col-sm-4 col-md-4 col-lg-4 grow bgb mygrid" style="text-decoration:none"><div class="maxheight">
+			  <a href="#DEDICATED" class="col-xs-12 col-sm-4  grow bgb mygrid scroll" style="text-decoration:none"><div class="maxheight">
 				<div class="fa fa-bars"></div>DEDICATED AND CO-LOCATION SERVER</div>
 			  </a>
-			  <a href="#MATV" class="col-xs-12 col-sm-4 col-md-4 col-lg-4 grow bgc mygrid" style="text-decoration:none"><div class="maxheight">
+			  <a href="#MATV" class="col-xs-12 col-sm-4  grow bgc mygrid" style="text-decoration:none"><div class="maxheight">
 				<div class="fa fa-desktop"></div>MATV (MASTER ANTENA TV)</div>
 			  </a>
-			</div>
-			<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 ">
-			  <a href="#CCTV" class="col-xs-12 col-sm-4 col-md-4 col-lg-4 grow bgd mygrid" style="text-decoration:none"><div class="maxheight">
+			
+			  <a href="#CCTV" class="col-xs-12 col-sm-4  grow bgd mygrid scroll" style="text-decoration:none"><div class="maxheight">
 				<div class="fa fa-video-camera"></div>CCTV, IP CAMERA AND SYSTEM SUPERVEILLANCE</div>
 			  </a>
-			  <a href="#VIDEO_CONFERENCE" class="col-xs-12 col-sm-4 col-md-4 col-lg-4 grow bge mygrid" style="text-decoration:none"><div class="maxheight">
+			  <a href="#VIDEO_CONFERENCE" class="col-xs-12 col-sm-4  grow bge mygrid scroll" style="text-decoration:none"><div class="maxheight">
 				<div class="fa fa-comment-o"></div>IP PBX, VOIP AND VIDEO CONFERENCE</div>
 			  </a>
-			  <a href="#SOUNDS_SYSTEM" class="col-xs-12 col-sm-4 col-md-4 col-lg-4 grow bgf mygrid" style="text-decoration:none"><div class="maxheight">
+			  <a href="#SOUNDS_SYSTEM" class="col-xs-12 col-sm-4  grow bgf mygrid scroll" style="text-decoration:none"><div class="maxheight">
 				<div class="fa fa-volume-down"></div>SOUNDS SYSTEM AND MULTIMEDIA ADVERTISING</div>
 			  </a>
-			</div>
-			<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 ">
-			  <a href="#SOFTWARE_DEVELOPER" class="col-xs-12 col-sm-4 col-md-4 col-lg-4 grow bgg mygrid" style="text-decoration:none"><div class="maxheight">
+			
+			  <a href="#SOFTWARE_DEVELOPER" class="col-xs-12 col-sm-4  grow bgg mygrid scroll" style="text-decoration:none"><div class="maxheight">
 				<div class="fa fa-html5"></div>WEB & SOFTWARE DEVELOPER</div>
 			  </a>
-			  <a href="#WEB_HOSTING" class="col-xs-12 col-sm-4 col-md-4 col-lg-4 grow bgh mygrid" style="text-decoration:none"><div class="maxheight">
+			  <a href="#WEB_HOSTING" class="col-xs-12 col-sm-4  grow bgh mygrid scroll" style="text-decoration:none"><div class="maxheight">
 				<div class="fa fa-globe"></div>WEB HOSTING & DOMAIN REGISTRATION</div>
 			  </a>
-			  <a href="#WEB_MAIL" class="col-xs-12 col-sm-4 col-md-4 col-lg-4 grow bgi mygrid" style="text-decoration:none"><div class="maxheight">
+			  <a href="#WEB_MAIL" class="col-xs-12 col-sm-4  <?php print 'grow' ?> bgi mygrid ?> scroll" style="text-decoration:none"><div class="maxheight">
 				<div class="fa fa-envelope"></div>WEB MAIL, MAIL SERVER & APPLICATION</div>
 			  </a>
+			-->
 			</div>
 		</div>
       </div>
@@ -48,7 +65,16 @@
 		<div class="container-fluid">
 	<div class="container" id="grid">
 		<div class="row">		
-			<div id="INTERNET_CONNECTION" class="col-xs-12 col-sm-12 col-md-12 col-lg-12" style="padding-top:80px;" >
+			<?php foreach($this->posts_model->get_posts_filterby(array('post_type'=>'product')) as $val){ ?>
+				<div id="<?php print $val->post_name ?>" class="col-xs-12 col-sm-12" style="padding-top:80px;" >
+				<img class="img-responsive" src="<?php echo base_url().'assets/images/'.$val->post_mime_type ?>" alt="<?php print $val->post_title ?>">
+				<h3><?php print $val->post_title ?></h3>
+				<?php print $val->post_content ?>
+				</div>
+				
+			<?php } ?>
+			<!--
+			<div id="INTERNET_CONNECTION" class="col-xs-12 col-sm-12" style="padding-top:80px;" >
 			<img class="img-responsive" src="<?php echo base_url().'assets\images\fiber.png' ?>" alt="fiber internet">
 			<h3>INTERNET CONNECTION</h3>
 			Layanan Internet dengan paket data beda bandwidth antara Global IX
@@ -76,8 +102,7 @@
 			Channel TV premium di Hotel dan Apartemen anda.
 			Kami juga melayani kebutuhan pelanggan dalam jasa instalasi CATV
 			(Client Antenna TV).</div>
-		</div>
-		<div class="row">
+
 			<div id="CCTV" class="col-xs-12 col-sm-12 col-md-12 col-lg-12" style="padding-top:80px;">
 			<img class="img-responsive" src="<?php echo base_url().'assets\images\cctv.jpg' ?>" alt="CCTV">
 			<h3>CCTV, IP CAMERA AND SYSTEM SUPERVEILLANCE</h3>
@@ -121,8 +146,7 @@
 			kebutuhan Audio dan Multimedia. Kami siap memberikan pelatihan teknis dan
 			Jasa Instalasi Audio untuk Ball Room, Full Band, Acoustic, Karaoke dan System
 			Audio Gedung</div>
-		</div>
-		<div class="row">
+
 			<div id="SOFTWARE_DEVELOPER" class="col-xs-12 col-sm-12 col-md-12 col-lg-12" style="padding-top:80px;">
 			<img class="img-responsive" src="<?php echo base_url().'assets\images\software-development.png' ?>" alt="fiber internet">
 			<h3>WEB & SOFTWARE DEVELOPER</h3>
@@ -146,6 +170,7 @@
 			e-mail bisa mengakses e-mail tanpa perlu menggunakan program e-mail client.
 			Keuntungan Webmail adalah pemakai dapat mengirim dan menerima
 			e-mail dari mana saja dengan cukup menggunakan browser atau MS Outlook.</div>
+			-->
 		</div>
 	</div>
   <br/>

@@ -1,7 +1,7 @@
 <?php
 defined('BASEPATH') OR exit('No direct script access allowed');
 
-class Posts_model extends CI_Model {
+class Pesan_model extends CI_Model {
 	function __construct(){
 		parent::__construct();
 	}
@@ -20,6 +20,51 @@ class Posts_model extends CI_Model {
 			return FALSE;
 		} else {
 			return true;	
+		}		
+	}
+	function set_pesan_read($where,$data){		
+		$this->db->where($where);
+		$data =$this->db->update('pesan', $data);
+		if (!$data) {
+			return FALSE;
+		} else {
+			return true;	
+		}			
+	}
+	function del_pesan($where){		
+		$this->db->where($where);
+		$data =$this->db->delete('pesan');
+		if (!$data) {
+			return FALSE;
+		} else {
+			return true;	
+		}			
+	}
+	function get_pesan($data){		
+		$data = $this->db->get_where('pesan', $data);
+		if (!$data) {
+			return FALSE;
+		} else {
+			return $data->row();	
+		}		
+	}
+	function get_pesan_unread($data){		
+		$data = $this->db->get_where('pesan', $data);
+		if (!$data) {
+			return FALSE;
+		} else {
+			return $data->result();	
+		}		
+	}
+	function get_pesan_orderby($orderby){		
+		$this->db->select('*');
+		$this->db->from('pesan');
+		$this->db->order_by($orderby);
+		$data=$this->db->get();
+		if (!$data) {
+			return FALSE;
+		} else {
+			return $data->result();	
 		}		
 	}
 	function get_post_by($data){		

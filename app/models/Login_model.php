@@ -44,7 +44,7 @@ class Login_model extends CI_Model {
 	function level()
 	{
 		foreach($this->login_model->ambil_data($this->data) as $val){
-			return $val->email;
+			return $val->level;
 		}
 	}
 	/* end fungsi restrict */

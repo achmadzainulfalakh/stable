@@ -1,4 +1,6 @@
-    </div>
+		<!-- /#ajax layout -->
+		</div>
+	</div>
     <!-- /#wrapper -->
 
 <div class="container-fluid">

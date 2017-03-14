@@ -37,8 +37,8 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 
 		<!-- Bootstrap Core JavaScript -->
 		<!--<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>-->
-		<script src="<?php echo base_url() ?>assets/js/jquery-1.10.2.js"></script>
-		<script src="<?php echo base_url() ?>assets/js/bootstrap.min.js"></script>
+		<!--<script src="<?php //echo base_url() ?>assets/js/jquery-1.10.2.js"></script>-->
+		<!--<script src="<?php echo base_url() ?>assets/js/bootstrap.min.js"></script>-->
 		<script src="<?php echo base_url() ?>assets/js/jquery-migrate-1.1.1.js"></script>
 		<script src="<?php echo base_url() ?>assets/js/jquery.easing.1.3.js"></script>
 		<script src="<?php echo base_url() ?>assets/js/script.js"></script> 
@@ -50,7 +50,8 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 		<script src="<?php echo base_url() ?>assets/js/scrollspy.min.js"></script>
 		<script src="https://www.google.com/recaptcha/api.js" async defer></script>
 		
-		
+		<!-- custom jQuery code -->
+		<script src="<?php echo base_url(); ?>assets/js/custom_jquery.js" ></script>
 
 		<!--stuck menu-->
 		<script>
@@ -149,6 +150,13 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 			$("#BtnModalPolicy").click(function(){
 				$("#ModalPolicy").modal();
 			});
+		});
+		</script>
+		<!--menghitung kunjungan-->
+		<script>
+		$(document).ready(function(){
+			// $.getJSON("http://localhost:801/stable/Statistic/index", function(result){
+			// });
 		});
 		</script>
 

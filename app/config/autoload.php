@@ -58,7 +58,7 @@ $autoload['packages'] = array();
 |
 |	$autoload['libraries'] = array('user_agent' => 'ua');
 */
-$autoload['libraries'] = array('form_validation','session','encryption','javascript','javascript/jquery','recaptcha');
+$autoload['libraries'] = array('form_validation','session','encryption','javascript','javascript/jquery','recaptcha','encrypt');
 
 /*
 | -------------------------------------------------------------------
@@ -89,7 +89,7 @@ $autoload['drivers'] = array();
 |
 |	$autoload['helper'] = array('url', 'file');
 */
-$autoload['helper'] = array('url','form');
+$autoload['helper'] = array('url','form','MY_url_encryption_helper','path','MY_shortcode');
 
 /*
 | -------------------------------------------------------------------
@@ -132,5 +132,5 @@ $autoload['language'] = array();
 |
 |	$autoload['model'] = array('first_model' => 'first');
 */
-$autoload['model'] = array();
+$autoload['model'] = array('pesan_model','login_model','settings_model','posts_model','users_model');
 

@@ -1,7 +1,27 @@
-
+<?php 
+$arr=array('post_name'=>'about');
+$posts=$this->posts_model->get_post_by($arr); 
+?>
 <!--=====================
           Content
 ======================-->
+<section id="content" class="line-bottom">
+  <div class="container landing-container" id="About" style="padding-top:80px">
+    <div class="row" >
+		<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+			<h3><?php print $posts->post_title ?></h3>
+		</div>
+	</div>
+	<br/>
+		<?php print $posts->post_content ?>
+	
+    </div>
+ <br/>
+</section>
+<?php
+//Backup content don't remove
+/*
+
 <section id="content" class="line-bottom">
   <div class="container landing-container" id="About" style="padding-top:80px">
     <div class="row" >
@@ -31,5 +51,7 @@
 	</div>
     </div>
  <br/>
-</section>
- 
+</section> 
+
+*/
+?>

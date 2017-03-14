@@ -466,7 +466,7 @@ $config['csrf_exclude_uris'] = array();
 | by the output class.  Do not 'echo' any values with compression enabled.
 |
 */
-$config['compress_output'] = FALSE;
+$config['compress_output'] = false;
 
 /*
 |--------------------------------------------------------------------------
@@ -513,3 +513,5 @@ $config['rewrite_short_tags'] = FALSE;
 */
 $config['proxy_ips'] = '';
 
+$config['cdn'] = 'http://'.$_SERVER['HTTP_HOST'].'/cdn/';
+$config['assets'] = 'http://'.$_SERVER['HTTP_HOST'].'/assets/';

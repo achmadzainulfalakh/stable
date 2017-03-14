@@ -189,6 +189,27 @@ class Gallery extends CI_Controller {
 		//$n=trim($newname);
 		rename('assets/images/'.$oldname, 'assets/images/'. str_replace('%20','_',$newname));
 	}
+	public function ajax()
+	{
+			$images=get_filenames('assets/images');
+			$data = array(
+					'title'   => 'Gallery',
+					'script'=>'',
+					// 'settings' => $this->settings,
+					'topmenu' => $this->topmenu,
+					'sidemenu' => $this->sidemenu,
+					'images' => $images,
+					
+			);
+			// $this->load->view('backendcontents/head', $data);
+			// $this->load->view('backendcontents/header');
+			$this->load->view('backendcontents/gallery', $data);
+			// $this->load->view('backendcontents/footer');
+			// $this->load->view('backendcontents/foot');			
+
+
+	}
+	
 
 	
 }

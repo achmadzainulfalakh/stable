@@ -454,7 +454,7 @@ header h1.stuck_head {
   background-color: #000000 !important;
 }
 .grow:hover {
-    transform: scale(1.1) !important;
+    transform: scale(1.1);
     z-index: 999 !important;
 }
 /****Content****/
@@ -955,7 +955,7 @@ section#stuck_container.sticky {
 .mygrid:hover{
 	color: #ffffff;
 	background-color:#000000!important;
-}
+} 
 
 .page1_header .mygrid .fa {
     margin-bottom: 27px;

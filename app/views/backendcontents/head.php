@@ -13,15 +13,17 @@
 	
 	<!-- favicon -->
     <link rel="icon" type="image/png" href="<?php echo $this->settings_model->get_favicon() ?>"/>
-
+	
+	
+	
     <!-- Bootstrap Core CSS -->
-    <link href="<?php echo base_url()."assets/admin" ?>/bower_components/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="<?php echo  $this->config->item('cdn'); ?>bower_components/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet" type="text/css">
 
     <!-- MetisMenu CSS -->
-    <link href="<?php echo base_url()."assets/admin" ?>/bower_components/metisMenu/dist/metisMenu.min.css" rel="stylesheet">
+    <link href="<?php echo  $this->config->item('cdn'); ?>bower_components/metisMenu/dist/metisMenu.min.css" rel="stylesheet" type="text/css">
 
     <!-- Custom CSS -->
-    <link href="<?php echo base_url()."assets/admin" ?>/dist/css/sb-admin-2.css" rel="stylesheet">
+    <link href="<?php echo  $this->config->item('cdn'); ?>dist/css/sb-admin-2.css" rel="stylesheet" type="text/css">
 
     <!-- Custom Fonts -->
     <link href="<?php echo base_url()."assets/admin" ?>/bower_components/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
@@ -30,9 +32,10 @@
     <script type="text/javascript" src="<?php echo base_url()."assets/admin" ?>/bower_components/jquery/dist/jquery.min.js"></script>
 	
 	<!-- CK editor js -->
-	<script type="text/javascript" src="<?php echo base_url()."assets/ckeditor-full" ?>/ckeditor.js"></script>
+	<script id="ckjs" type="text/javascript" src="<?php echo base_url()."assets/ckeditor-full" ?>/ckeditor.js"></script>
 	
 	
+
 
 
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->

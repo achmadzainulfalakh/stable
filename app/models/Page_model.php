@@ -1,7 +1,7 @@
 <?php
 defined('BASEPATH') OR exit('No direct script access allowed');
 
-class Posts_model extends CI_Model {
+class Page_model extends CI_Model {
 	function __construct(){
 		parent::__construct();
 	}
@@ -13,8 +13,8 @@ class Posts_model extends CI_Model {
 			return true;	
 		}		
 	}
-	function update_post($where,$data){	
-		$this->db->where($where);
+	function update_post($id,$data){	
+		$this->db->where('ID', $id);
 		$post =$this->db->update('posts', $data);
 		if (!$post) {
 			return FALSE;
@@ -28,14 +28,6 @@ class Posts_model extends CI_Model {
 			return FALSE;
 		} else {
 			return $post->row();	
-		}		
-	}
-	function get_posts_filterby($data){		
-		$post = $this->db->get_where('posts', $data);
-		if (!$post) {
-			return FALSE;
-		} else {
-			return $post->result();	
 		}		
 	}
 	function get_subtitle()
@@ -65,21 +57,6 @@ class Posts_model extends CI_Model {
 	function get_page_posttitle(){		
 		$query=$this->db->query("select * from posts where post_type='page'");
 		return $query->result();		
-	}
-	//delete post
-	function del_post_by($data){		
-		$this->db->where($data);
-		$this->db->delete('posts');
-				
-	}
-	//get page dari table posts
-	function get_post_orderby($where,$orderby){		
-		$this->db->select('*');
-		$this->db->from('posts');
-		$this->db->where($where);
-		$this->db->order_by($orderby);
-		$query=$this->db->get();
-		return $query->result();			
 	}
 	
 	

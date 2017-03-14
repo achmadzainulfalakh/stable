@@ -34,10 +34,11 @@ class Dashboard extends CI_Controller {
 		$this->load->library('pagination');
 		$this->load->helper('download');
 		$this->load->dbutil();
-		
+		//pengecekan login
 		if(!$this->login_model->username()){
 			redirect('login');
 		}
+		// /.pengecekan login
 
 		$this->topmenu=array(
 			
@@ -61,47 +62,22 @@ class Dashboard extends CI_Controller {
 	}
 	public function index()
 	{
-		// if($_POST){
-			// if($this->input->post('reset')){
-				// $this->pendaftar->reset_pendaftar();
-			// }
-		// }
-
-			// $limit=2;
-			// $config['base_url'] = base_url().'dashdashboard';
-			// $config['total_rows'] = $this->pendaftar->getCount();
-			// $config['per_page'] = $limit;
-			// $config['full_tag_open'] = '<ul class="pagination">';
-			// $config['full_tag_close'] = '</ul>';
-			// $config['num_tag_open'] = '<li>';
-			// $config['num_tag_close'] = '</li>';
-			// $config['prev_tag_open'] = '<li>';
-			// $config['prev_tag_close'] = '</li>';
-			// $config['next_tag_open'] = '<li>';
-			// $config['next_tag_close'] = '</li>';
-			// $config['cur_tag_open'] = '<li class="active"><a href="#">';
-			// $config['cur_tag_close'] = '</a></li>';
-			
-			// $this->pagination->initialize($config);
+		$data = array(
+				'title'   => 'Dashboard',
+				'script'=>'',
+				'settings' => $this->settings,
+				'topmenu' => $this->settings,
+				'sidemenu' => $this->settings,
+				'jumlahkunjungan'=> json_decode(file_get_contents(base_url().'statistic/count_all')),
+				'arrjumlahkunjungan'=> json_decode(file_get_contents(base_url().'statistic/count_group_byjam')),
+				'allKunjungan'=> json_decode(file_get_contents(base_url().'statistic/all_data')),
+		);
 		
-			$data = array(
-					'title'   => 'Dashboard',
-					'script'=>'',
-					'settings' => $this->settings,
-					'topmenu' => $this->settings,
-					'sidemenu' => $this->settings,
-			);
-			// $datatable = array(
-				// 'table_title'   => 'Daftar Pendaftar',
-				// 'table_heading' => 'Seluruh pendaftar siswa baru smkti annajiyah',
-				// 'table_entries' => $this->pendaftar->getAllwithLimit($limit,$this->uri->segment(3)),
-				// 'pagination' => $this->pagination->create_links(),
-			// );
-			$this->load->view('backendcontents/head', $data);
-			$this->load->view('backendcontents/header');
-			$this->load->view('backendcontents/blank');
-			$this->load->view('backendcontents/footer');
-			$this->load->view('backendcontents/foot');			
+		$this->load->view('backendcontents/head', $data);
+		$this->load->view('backendcontents/header');
+		$this->load->view('backendcontents/statistik');
+		$this->load->view('backendcontents/footer');
+		$this->load->view('backendcontents/foot');			
 
 
 	}
