@@ -59,7 +59,8 @@ class Site extends CI_Controller {
 		$this->load->view('frontendcontents/weoffer');
 		// $this->load->view('frontendcontents/contactus');
 		$this->load->view('frontendcontents/contactus_offline');
-		$this->load->view('frontendcontents/ourclient');
+		//$this->load->view('frontendcontents/ourclient');
+		$this->load->view('frontendcontents/ourclients');
 		///$this->load->view('frontendcontents/emailconfirm');
 		$this->load->view('frontendcontents/policy');
 		//$this->load->view('frontendcontents/home');

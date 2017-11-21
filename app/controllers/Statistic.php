@@ -25,6 +25,11 @@ class Statistic extends CI_Controller {
 	{
 		parent::__construct();
 		$this->load->database();
+		
+		//pengecekan login
+		if(!$this->login_model->username()){
+			redirect('Page_not_found');
+		}
 	}
 	public function index()
 	{		

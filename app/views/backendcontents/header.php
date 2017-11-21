@@ -218,8 +218,8 @@
                     </a>
                     <ul class="dropdown-menu dropdown-user">
                         <?php if($this->login_model->level() == 'administrator'){ ?>
-						<li><a href="<?php print base_url() ?>profil.html"><i class="fa fa-user fa-fw"></i> User Profile</a>
-                        </li>
+						<!--<li><a href="<?php //print base_url() ?>profil.html"><i class="fa fa-user fa-fw"></i> User Profile</a>
+                        </li>-->
 						<?php } ?>
                         <li><a href="<?php print base_url()?>settings.html"><i class="fa fa-gear fa-fw"></i> Settings</a>
                         </li>
@@ -268,6 +268,9 @@
 								<li>
 									<a href="<?php echo base_url()?>page/ourclient.html">Our Client</a>
 								</li>
+                                <li>
+                                    <a href="<?php echo base_url()?>page/ourclients.html">Our Client</a>
+                                </li>
 								<li>
 									<a href="<?php echo base_url()?>page/policy.html">Privacy Policy</a>
 								</li>
@@ -280,9 +283,9 @@
 						<li>
                             <a id="ajaxsetting" href="<?php //print base_url().'settings.html'?>#"><i class="fa fa-wrench fa-fw"></i> Settings</a>
                         </li>
-                        <li>
+<?php /*                       <li>
                             <a id="ajaxpesan" href="<?php //print base_url().'pesan.html'?>#"><i class="fa fa-envelope fa-fw"></i> Message</a>
-                        </li>
+                        </li> */?>
                     </ul>
                 </div>
                 <!-- /.sidebar-collapse -->

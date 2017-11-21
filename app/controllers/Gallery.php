@@ -34,9 +34,10 @@ class Gallery extends CI_Controller {
 		$this->load->library('pagination','upload');
 		$this->load->helper(array('file','download'));
 		$this->load->dbutil();
-		
+
+		//pengecekan login
 		if(!$this->login_model->username()){
-			redirect('login');
+			redirect('Page_not_found');
 		}
 
 		$this->topmenu=array(

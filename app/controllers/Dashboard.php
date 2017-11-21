@@ -36,7 +36,7 @@ class Dashboard extends CI_Controller {
 		$this->load->dbutil();
 		//pengecekan login
 		if(!$this->login_model->username()){
-			redirect('login');
+			redirect('Page_not_found');
 		}
 		// /.pengecekan login
 
@@ -75,7 +75,7 @@ class Dashboard extends CI_Controller {
 		
 		$this->load->view('backendcontents/head', $data);
 		$this->load->view('backendcontents/header');
-		$this->load->view('backendcontents/statistik');
+		//$this->load->view('backendcontents/statistik');
 		$this->load->view('backendcontents/footer');
 		$this->load->view('backendcontents/foot');			
 

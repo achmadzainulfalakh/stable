@@ -20,10 +20,7 @@ class Login extends CI_Controller {
 
 	// Berfungsi untuk menampilkan halaman login
 	function index() { 
-		if($this->login_model->username()){
-			redirect('dashboard');
-		} 
-		else {
+		if(!$this->login_model->username()){
 			$data = array(
 					'title'   => 'Login',
 					'script'=>'',
@@ -44,6 +41,9 @@ class Login extends CI_Controller {
 			$this->load->view('backendcontents/form_login_admin2');
 			$this->load->view('backendcontents/footer');
 			$this->load->view('backendcontents/foot');
+		} 
+		else {
+			redirect('dashboard');
 		}
 	
 	

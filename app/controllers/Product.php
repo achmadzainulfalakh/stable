@@ -9,7 +9,7 @@ class Product extends CI_Controller {
 		
 		//pengecekan login
 		if(!$this->login_model->username()){
-			redirect('login');
+			redirect('Page_not_found');
 		}
 	}
 	public function index($id='')

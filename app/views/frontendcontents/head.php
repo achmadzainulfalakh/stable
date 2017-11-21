@@ -10,7 +10,8 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 <link rel="icon" href="<?php echo base_url() ?>assets/images/favicon.png">
 <!--<link rel="shortcut icon" href="<?php echo base_url() ?>assets/images/favicon.ico" />-->
 <link rel="stylesheet" href="<?php echo base_url() ?>assets/css/style.css">
-<meta name="description" content="<?php echo $this->settings_model->get_options('blogdescription') //mendapatkan deskripsi situs ?>">
+<meta name="description" content="<?php echo $this->settings_model->get_options('admin_descrip') ?>">
+<meta name="keywords" content="<?php echo $this->settings_model->get_options('admin_keyword') ?>">
 <meta name="author" content="<?php echo $this->settings_model->get_options('admin_name') //mendapatkan nama admin ?>">
 
 <!--<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">-->

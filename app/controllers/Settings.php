@@ -11,8 +11,9 @@ class Settings extends CI_Controller {
 		$this->load->helper(array('file','download','MY_url_encryption_helper'));
 		$this->load->dbutil();
 		
+		//pengecekan login
 		if(!$this->login_model->username()){
-			redirect('login');
+			redirect('Page_not_found');
 		}
 
 		$this->topmenu=array(
@@ -50,6 +51,10 @@ class Settings extends CI_Controller {
 		$this->settings_model->update_options($urlicon,'admin_email');
 		$urlicon=$this->input->post('admin_telp');
 		$this->settings_model->update_options($urlicon,'admin_telp');
+		$urlicon=$this->input->post('admin_descrip');
+		$this->settings_model->update_options($urlicon,'admin_descrip');
+		$urlicon=$this->input->post('admin_keyword');
+		$this->settings_model->update_options($urlicon,'admin_keyword');
 		$urlicon=$this->input->post('urlicon');
 		$this->settings_model->update_options($urlicon,'site_icon_url');
 		$sitename=$this->input->post('sitename');

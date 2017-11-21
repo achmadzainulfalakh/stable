@@ -35,8 +35,9 @@ class Page extends CI_Controller {
 		$this->load->helper(array('file','download','MY_url_encryption_helper'));
 		$this->load->dbutil();
 		
+		//pengecekan login
 		if(!$this->login_model->username()){
-			redirect('login');
+			redirect('Page_not_found');
 		}
 
 		$this->topmenu=$this->settings_model->get_top_menu();
@@ -96,7 +97,7 @@ class Page extends CI_Controller {
 		$this->load->view('backendcontents/form_edit_contactus');
 		$this->load->view('backendcontents/footer');
 		$this->load->view('backendcontents/foot');			
-	}
+	}/*
 	public function ourclient()
 	{		
 		$arr=array('post_name'=>'ourclient');
@@ -120,6 +121,55 @@ class Page extends CI_Controller {
 		$this->load->view('backendcontents/head', $data);
 		$this->load->view('backendcontents/header');
 		$this->load->view('backendcontents/form_edit_ourclient');
+		$this->load->view('backendcontents/footer');
+		$this->load->view('backendcontents/foot');			
+	}*/
+	public function ourclients($id='',$delete='')
+	{		
+		if($delete=='delete'){
+			$this->posts_model->del_post_by(array('ID'=>decode_url($id)));
+		}
+		$arr=array(
+					'post_type'=>'ourclients',
+					);
+		if($this->input->post('update')){
+			$arrPost=array(
+				'menu_order'=>$this->input->post('order'),
+				'post_title'=>$this->input->post('title'),
+				'post_content'=>$this->input->post('content'),
+			);
+			$this->posts_model->update_post(
+				array(
+					'post_type'=>'ourclients',
+					'ID'=>decode_url($id)
+				),
+				$arrPost);
+		}
+		if($this->input->post('add')){
+			$arrPost=array(
+				'menu_order'=>$this->input->post('order'),
+				'post_title'=>$this->input->post('title'),
+				'post_content'=>$this->input->post('content'),
+				'post_type'=>'ourclients',
+			);
+			$this->posts_model->set_post($arrPost);
+			
+		}
+		$pages=$this->posts_model->get_page_posttitle();
+		
+		$data = array(
+				'id'=>$id,
+				'title'   => 'Add Page',
+				'script'=>'',
+				'topmenu' => $this->topmenu,
+				'sidemenu' => $this->sidemenu,
+				'pages' => $pages,	
+				'posts'=>$this->posts_model->get_posts_filterby($arr),
+				'post'=>$this->posts_model->get_post_by(array('post_type'=>'ourclients','ID'=>decode_url($id))),
+		);
+		$this->load->view('backendcontents/head', $data);
+		$this->load->view('backendcontents/header');
+		$this->load->view('backendcontents/form_edit_ourclients');
 		$this->load->view('backendcontents/footer');
 		$this->load->view('backendcontents/foot');			
 	}

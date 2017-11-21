@@ -31,6 +31,16 @@
 										<input name="admin_telp" class="form-control" value="<?php echo $this->settings_model->get_options('admin_telp') //mendapatkan email admin ?>" >
 										<p class="help-block">Valid: text validasi</p>
 									</div>
+									<div class="form-group">
+										<label>Deskripsi Situs(SEO):</label>
+										<input name="admin_descrip" class="form-control" value="<?php echo $this->settings_model->get_options('admin_descrip') //mendapatkan deskripsi admin ?>" >
+										<p class="help-block">Valid: text validasi</p>
+									</div>
+									<div class="form-group">
+										<label>Keyword Situs(SEO):</label>
+										<input name="admin_keyword" class="form-control" value="<?php echo $this->settings_model->get_options('admin_keyword') //mendapatkan keyword admin ?>" >
+										<p class="help-block">Valid: text validasi</p>
+									</div>
 								</div>
 							</div>
 						</div>
